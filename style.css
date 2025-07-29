@@ -1,0 +1,340 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+	color: white;
+}
+
+body, 
+.crop,
+.crop2 { 
+	-ms-overflow-style: none; 
+} 
+
+body::-webkit-scrollbar,
+.crop::-webkit-scrollbar,
+.crop2::-webkit-scrollbar { 
+	display: none; 
+} 
+
+.home {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	z-index: 2;
+}
+
+.tohome {
+	position: fixed;
+	bottom: 20px;
+	left: 25px;
+}
+
+h1 {
+	position: fixed;
+	top: 20px;
+	font-size: 16px;
+}
+
+h2 {
+	position: fixed;
+	top: 25%;
+	transform: translateY(-50%);
+	animation: fadein 5s;
+	opacity: 0;
+	font-weight: normal;
+	font-size: 10vw;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.info {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	color: white;
+}
+
+.bg {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+video {
+	position: fixed;
+	height: 100vh;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	30% {
+		opacity: 1;
+	}
+
+	70% {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+h1, h3, h4 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.sites {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.sites article {
+	width: calc((100% - 30px) / 4);
+}
+
+ul {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.sites li {
+	list-style: none;
+	border-top: 1px solid white;
+	width: calc((100% - 20px) / 3);
+	height: 60px;
+	padding: 5px 2px 0 0;
+}
+
+li:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.cn a,
+.jp a {
+	word-break: break-all;
+}
+
+.intro {
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 50%;
+	height: 100%;
+	padding: 20px 2.5px 20px 20px;
+}
+
+.welcome {
+	width: calc(50% - 10px);
+	height: 50%;
+	color: white;
+	border-top: 1px solid white;
+	padding: 5px 5px 5px 0;
+}
+
+.welcome a:hover {
+	opacity: 0.5;
+}
+
+.news {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	padding: 20px 20px 20px 2.5px;
+}
+
+figure {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news img {
+	width: 200px;
+	height: auto;
+	border-radius: 10px;
+}
+
+h3 {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid white;
+	padding: 5px 0 5px 0;
+}
+
+summary {
+	border-top: 1px solid white;
+  list-style-type: none; 
+}
+
+summary::-webkit-details-marker {
+  display: none; 
+}
+
+summary:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+h4 {
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+  padding-top: 5px;
+}
+
+.desc {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0 30px 0;
+}
+
+h3 p,
+h4 p,
+.desc p {
+	width: calc((100% - 30px) / 4);
+}
+
+figure {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 5px 0 5px 0;
+}
+
+.bl {
+	word-break: break-all;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+	h1 {
+		top: 15px;
+	}
+
+	.info {
+		top: 15px;
+		right: 15px;
+	}
+	
+	.tohome {
+		bottom: 15px;
+		left: 15px;
+		width: calc(100% - 30px);
+		text-align: center;
+	}
+
+	.crop {
+		position: fixed;
+		top: 60px;
+		left: 0;
+		width: 100%;
+		height: calc(100% - 60px);
+		z-index: 4;
+		overflow: scroll;
+	}
+
+	.sites {
+		padding: 10px;
+	}
+
+	.sites li {
+		width: 100%;
+		padding: 1px 1px 0 0;
+		height: 65px;
+	}
+
+	.en a {
+		word-break: break-all;
+	}
+
+	.intro, 
+	.news {
+		position: relative;
+		width: 100%;
+		padding: 20px 10px 0 10px;
+	}
+
+	.news {
+		left: 0;
+		padding: 15px;
+	}
+
+	.crop2 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: calc(100% - 55px);
+		overflow: scroll;
+	}
+
+	.intro {
+		height: auto;
+	}
+
+	.welcome {
+		margin-bottom: 40px;
+	}
+
+	figure {
+		height: 250px;
+	}
+
+	h1,
+	.info a, 
+	li {
+		font-size: 14.5px;
+	}
+
+	.intro p,
+	.intro a,
+	p {
+		font-size: 14.5px;
+	}
+
+	.news img {
+		width: 250px;
+	}
+}
+
+
+@media screen and (min-aspect-ratio: 16/9) {
+	video {
+		position: fixed;
+		height: auto;
+		width: 100vw;
+	}
+}
