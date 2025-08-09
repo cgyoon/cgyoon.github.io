@@ -150,7 +150,7 @@ p {
 
 	.titlecn {
 		align-items: flex-start;
-		padding: 15px 15px 15px 0px;
+		padding: 15px 10px 15px 0px;
 	}
 
 	.titleen {
@@ -179,6 +179,10 @@ p {
 	li,
 	footer p {
 		font-size: 14px;
+	}
+
+	.am {
+		margin-bottom: 8px;
 	}
 }
 
