@@ -17,6 +17,9 @@ article {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.letter article {
 	padding-bottom: 20px;
 }
 
