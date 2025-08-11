@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-break: keep-all;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+article {
+	position: relative;
+	width: 50%;
+	height: 20svh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+p {
+	text-align: center;
+	line-height: 1.5;
+}
+
+.letter .year1,
+.letter .year3,
+.letter .year5,
+.letter .year7,
+.letter .year9 {
+	border-right: 1px solid black;
+}
+
+.letter .year1,
+.letter .year2,
+.letter .year3,
+.letter .year4,
+.letter .year5, 
+.letter .year6,
+.letter .year7,
+.letter .year8 {
+	border-bottom: 1px solid black;
+}
+
+@keyframes bounce {
+  100% {
+    top: -5px;
+    text-shadow: 
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
+
+p span {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  animation: bounce .4s ease infinite alternate;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, .4);
+}
+
+p span:nth-child(2) { animation-delay: .1s; }
+p span:nth-child(3) { animation-delay: .2s; }
+p span:nth-child(4) { animation-delay: .3s; }
+p span:nth-child(5) { animation-delay: .4s; }
+p span:nth-child(6) { animation-delay: .5s; }
+
+
+.from {
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.envelope {
+	position: relative;
+	width: 0px;
+	height: 0px;
+  border-bottom: 10svh solid transparent;
+  border-top: 10svh solid white;
+  border-left: 25vw solid transparent;
+  border-right: 25vw solid transparent;
+ 	filter: drop-shadow(0px 0px 10px gray);
+}
+
+.en .year1,
+.en .year3,
+.en .year5,
+.en .year7,
+.en .year9 {
+	box-shadow: 0px 0px 10px lightgray;
+}
