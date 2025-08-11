@@ -23,6 +23,14 @@ h2 {
 	font-size: 16px;
 }
 
+/*.rs {
+	flex-direction: column;
+}
+*/
+.rs div {
+	width: 100%;
+}
+
 .bb {
 	border-bottom: 1px solid white;
 }
@@ -252,6 +260,13 @@ li {
 	.outer li,
 	.resident div {
 		writing-mode: vertical-rl;
+	}
+
+	.dh,
+	.cg,
+	.rs {
+		writing-mode: vertical-rl;
+		text-orientation: upright;
 	}
 
 }
