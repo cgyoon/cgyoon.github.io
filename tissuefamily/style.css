@@ -1,0 +1,229 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+body {
+	background-color: ;
+	width: 100%;
+	height: 100%;
+}
+
+h1,
+h2 {
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.bb {
+	border-bottom: 1px solid white;
+}
+
+.br {
+	border-right: 1px solid white;
+}
+
+.events {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.events ul {
+	writing-mode: vertical-rl;
+}
+
+.events li {
+	border-right: 1px solid black;
+	text-orientation: upright;
+	word-spacing: 7.5px;
+}
+
+.resident {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	width: 30%;
+	height: 30%;
+}
+
+.resident ul {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+
+.resident li {
+	width: 50%;
+	height: 50%;
+	background-color: #333333;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.resident div {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.meeting {
+	left: 37.5%;
+	bottom: 10px;
+	width: 25%;
+	height: 30%;
+	background-color: #003B96;
+}
+
+.lounge {
+	top: 10px;
+	left: 35%;
+	width: 20%;
+	height: 10%;
+	background-color: #4E614E;
+}
+
+.meeting,
+.lounge,
+.library,
+.gym,
+.kitchen,
+.refri,
+.storage,
+.chair1,
+.chair2 {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.chair1 {
+	top: 10px;
+	left: 31%;
+	width: 2.5%;
+	height: 5%;
+	background-color: #4A3A35;
+}
+
+.chair2 {
+	top: 12.5%;
+	left: 52.5%;
+	width: 2.5%;
+	height: 5%;
+	background-color: #4E614E;
+}
+
+.library {
+	bottom: 10px;
+	left: 27.5%;
+	width: 5%;
+	height: 50%;
+	background-color: #949494;
+}
+
+.officer {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	height: 70%;
+	width: 25%;
+}
+
+.inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30%;
+	height: 100%;
+}
+
+.outer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.inner li,
+.outer li {
+	width: 100%;
+	height: 33.33%;
+}
+
+.officer li {
+	background-color: #D9D9D9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gym {
+	top: 10px;
+	left: 57.5%;
+	width: 5%;
+	height: 10%;
+	background-color: #C4C4C4;
+}
+
+.kitchen {
+	top: 10px;
+	left: 20%;
+	width: 5%;
+	height: 10%;
+	background-color: #F0F0E9;
+	color: black;
+}
+
+.storage {
+	top: 15%;
+	left: 10px;
+	width: 15%;
+	height: 7.5%;
+	background-color: #949494;
+}
+
+.refri {
+	top: 10px;
+	left: 10px;
+	width: 5%;
+	height: 10%;
+	background-color: #E8E8E8;	
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.events ul {
+		writing-mode: horizontal-tb;
+	}
+
+	.events li {
+		border-right: 0px solid black;
+		border-top: 1px solid black;
+		word-spacing: 0px;
+	}
+}
