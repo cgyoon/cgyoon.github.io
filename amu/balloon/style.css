@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  font-family: sans-serif; 
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.a {
+  position: absolute;
+  display: inline-block;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.balloon {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  writing-mode: vertical-rl;
+  letter-spacing: -0.4vw;
+  text-align: center;
+  vertical-align: middle;
+/*  background: radial-gradient(white, lightgrey);*/
+  cursor: pointer;
+  border: 0.15vw solid;
+}
+
+span {
+  height: 100%;
+}
+.a {
+  width: 4vw;
+  height: 5vw;
+  font-size: 2vw;
+  padding: 1vw;
+}
+
+.b {
+  width: 12vw;
+  height: 15vw;
+  font-size: 4vw;
+  letter-spacing: -0.65vw;
+  padding: 2vw;
+}
+
+.c {
+  width: 24vw;
+  height: 30vw;
+  font-size: 8vw;
+  letter-spacing: -1vw;
+  padding: 4vw;
+}
+
+.d {
+  width: 40vw;
+  height: 50vw;
+  font-size: 16vw;
+  letter-spacing: -1vw;
+  padding: 6vw;
+}
+
+.e {
+  width: 72vw;
+  height: 90vw;
+  font-size: 32vw;
+  letter-spacing: -1vw;
+  padding: 8vw;
+}
+
+.f {
+  width: 96vw;
+  height: 120vw;
+  font-size: 50vw;
+  letter-spacing: -1vw;
+  padding: 10vw;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .a {
+    width: 12vh;
+    height: 15vh;
+    font-size: 10vw;
+    letter-spacing: -1vh;
+  }
+
+  .b {
+    width: 20vh;
+    height: 25vh;
+    font-size: 18vw;
+    letter-spacing: -1.75vh;
+  }
+
+  .c {
+    width: 32vh;
+    height: 40vh;
+    font-size: 30vw;
+    letter-spacing: -3vh;
+  }
+
+  .d {
+    width: 52vh;
+    height: 65vh;
+    font-size: 45vw;
+    letter-spacing: -5vh;
+  }
+
+  .e {
+    width: 72vh;
+    height: 90vh;
+    font-size: 70vw;
+    letter-spacing: -8vh;
+  }
+
+  .f {
+    width: 96vh;
+    height: 120vh;
+    font-size: 100vw;
+    letter-spacing: -12vh;
+  }
+
+}

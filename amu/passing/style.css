@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ah,
+.mu {
+  position: absolute;
+  display: block;
+  width: 1000%;
+  height: 50%;
+  overflow: hidden;
+  font-size: 50vh;
+}
+
+.ah {
+  top: -2%;
+  left: 0;
+}
+
+.mu {
+  top: 48%;
+  left: 0;
+}
+
+.ah div,
+.mu div {
+  position: absolute;
+  display: block;
+  width: 200%;
+  overflow: hidden;
+}
+
+.ah div {
+  animation: marquee 150s linear infinite;
+}
+
+.mu div {
+  animation: marquee 120s linear infinite;
+}
+
+.ah span,
+.mu span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@media screen and (max-width: 900px) {
+  .ah,
+  .mu {
+    font-size: 42vh;
+  }
+
+  .ah div {
+    animation: marquee 50s linear infinite;
+  }
+
+  .mu div {
+    animation: marquee 40s linear infinite;
+  }
+}

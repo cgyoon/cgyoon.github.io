@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: keep-all;
+  font-family: 'helvetica', sans-serif;
+  font-weight: normal;
+  font-size: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+/* ------------- home ------------- */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+  font-size: 50vw;
+  letter-spacing: 2vw;
+  line-height: 120vw;
+}
+
+/* ------------- list ------------- */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 1.5vw;
+  z-index: 99;
+}
+
+.list,
+.info {
+  position: absolute;
+  right: 1.5vw;
+}
+
+nav a {
+  font-size: 1.25vw;
+}
+
+section {
+  width: 100%;
+  height: auto;
+}
+
+section a {
+  font-size: 4vw;
+}
+
+.amu {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  width: calc(100% / 3);
+  height: 20vw;
+  border-bottom: 0.31vw solid;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.wip, .final {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* ------------- info ------------- */
+
+h1,
+h2,
+h3,
+p, 
+li {
+  font-size: 1.25vw;
+}
+
+h1 {
+  position: fixed;
+  padding-top: 1.5vw;
+  padding-left: 1.5vw;
+}
+
+h2 {
+  width: 60px;
+  margin-bottom: 2.5vw;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.intro {
+  padding: 1.5vw;
+}
+
+.contents {
+  position: relative;
+  margin-top: 100px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 20%;
+  font-size: 1.25vw;
+  vertical-align: top;
+  padding-right: 1vw;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 900px) {
+
+  /* ------------- home ------------- */
+  .welcome {
+    word-break: break-all;
+    font-size: 80vw;
+    line-height: 80vw;
+  }
+
+  /* ------------- list ------------- */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vw;
+    padding-top: 4vw;
+    z-index: 99;
+  }
+
+  nav a {
+    font-size: 4vw;
+  }
+
+  section a {
+    font-size: 17vw;
+  }
+
+  .list,
+  .info {
+    position: absolute;
+    right: 4vw;
+  }
+
+  .amu {
+    position: relative;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 70vw;
+    border-bottom: 1.2vw solid;
+  }
+
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .wip, .final {
+    font-size: 17vw;
+  }
+
+  /* ------------- info ------------- */
+
+  h1,
+  h2,
+  h3,
+  p, 
+  li {
+    font-size: 4vw;
+  }
+
+  h1 {
+    padding-top: 4vw;
+    padding-left: 4vw;
+  }
+
+  h2 {
+    width: 60px;
+    margin-bottom: 2.5vw;
+  }
+
+  summary {
+    cursor: pointer;
+  }
+
+  .intro {
+    padding: 4vw;
+  }
+
+  .contents {
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 20%;
+    font-size: 1.25vw;
+    vertical-align: top;
+    padding-right: 1vw;
+    line-height: 1.4;
+  }
+
+}

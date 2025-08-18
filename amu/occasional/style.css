@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.a, .b {
+  position: absolute;
+  font-size: 20vw;
+  transition: top 1.5s, left 1.5s;
+}
+
+.top {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 50%;
+  width: 100%;
+}
+
+.bottom {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  height: 50%;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .a, .b {
+    font-size: 50vw;
+  }
+}

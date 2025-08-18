@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#pyramid {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  padding: 20px;
+}
+
+button {
+  width: 50px;
+  height: 27.5px;
+  font-size: 17px;
+  margin-bottom: 11px;
+}
+
+div {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+ 
+  button {
+    width: 28px;
+    height: 15px;
+    font-size: 6.5px;
+    margin-bottom: 2.5px;
+  } 
+}

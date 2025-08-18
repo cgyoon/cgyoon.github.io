@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --second: 1s;
+  --minute: calc(var(--second) * 60);
+}
+
+@keyframes rotate {
+  from { transform: rotate(0); }
+  to { transform: rotate(1turn); }
+}
+
+.second.hand {
+  animation: rotate steps(60) var(--minute) infinite;
+}
+
+.clock {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 5px);
+  width: 0.45vw;
+  transform-origin: center 0;
+  background-color: black;
+}
+
+.hour {
+  height: 8vw;
+  background-color: black;
+  transform: rotate(120deg);
+}
+
+.minute {
+  height: 11.5vw;
+  background-color: black;
+  transform: rotate(240deg);
+}
+
+.second {
+  height: 11.5vw;
+}
+
+.ah {
+  top: 47%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.mu {
+  top: 47%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+
+.number {
+  position: absolute;
+  font-size: 5.3vw;
+}
+
+.one {
+  top: 0%;
+  left: 71%;
+  transform: translate(0, -42%);
+}
+
+.two {
+  top: 11%;
+  left: 100%;
+  transform: translate(-42%);  
+}
+
+.three {
+  top: 52%;
+  left: 100%;
+  transform: translate(0, -45%);
+}
+
+.four {
+  top: 70%;
+  left: 100%;
+  transform: translate(-44%);   
+}
+
+.five {
+  top: 92%;
+  left: 71%;
+}
+
+.six {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -10%);  
+}
+
+.seven {
+  top: 92%;
+  left: 20%;
+  transform: translate(-50%);  
+}
+
+.eight {
+  top: 70%;
+  left: 0%;
+  transform: translate(-60%);  
+}
+
+.nine {
+  top: 52%;
+  left: 0;
+  transform: translate(-100%, -45%);
+}
+
+.ten {
+  top: 11%;
+  left: 0%;
+  transform: translate(-60%, 0);
+}
+
+.eleven {
+  top: 0%;
+  left: 20%;
+  transform: translate(-50%, -42%);
+}
+
+.twelve {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+@media screen and (max-width: 900px) {
+  .clock {
+    width: 230px;
+    height: 230px;
+  }
+
+  .ah {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .mu {
+    top: auto;
+    bottom: 11%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .number {
+    font-size: 40px;
+  }
+
+  .hand {
+    width: 3px;
+  }
+
+  .hour {
+    height: 40px;
+  }
+
+  .minute {
+    height: 80px;
+  }
+
+  .second {
+    height: 110px;
+  }
+}
