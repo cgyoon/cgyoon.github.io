@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  word-break: keep-all;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+body { 
+  -ms-overflow-style: none; 
+} 
+
+body::-webkit-scrollbar { 
+  display: none; 
+} 
+
+
+h1 {
+  font-size: 16px;
+}
+
+nav {
+  margin-left: 15px;
+  padding: 20px 0 0px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: calc(100% - 30px);
+}
+
+header {
+  padding: 20px;
+}
+
+a {
+  color: black;
+}
+
+#dishes {
+  display: flex;
+  align-items: flex-start;
+  overflow-x: auto;
+}
+
+#dishes li {
+  margin: 10px 10px 30px 10px;
+}
+
+#dishes li {
+  list-style: none;
+}
+
+#dish1 {
+  width: 300px;
+}
+
+#dish2 {
+  width: 200px;
+}
+
+#dish3 {
+  width: 150px;
+}
+
+#dish4 {
+  width: 400px;
+}
+
+#dish5 {
+  width: 280px;
+}
+
+#dish6 {
+  width: 260px;
+}
+
+#dish7 {
+  width: 370px;
+}
+
+#dish8 {
+  width: 360px;
+}
+
+#dish9 {
+  width: 320px;
+}
+
+#dish10 {
+  width: 230px;
+}
+
+#dish11 {
+  width: 220px;
+}
+
+#dish12 {
+  width: 250px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#dishes img:hover {
+  animation-duration: 2s;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+article {
+  padding: 15px;
+}
+
+#cook {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu {
+  padding-right: 20px;
+  margin: 0 0 0 20px;
+}
+
+.recipe {
+  margin-top: 2.5px;
+}
+
+.recipe li {
+  border-top: 1px solid black;
+  list-style: 1.4;
+  padding: 2.5px 0 2.5px 0;
+}
+
+.ing {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer {
+  display: inline-block;
+  border-top: 1px solid black;
+  width: calc(100% - 30px);
+  margin-left: 15px;
+  padding-top: 20px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+
+  header {
+    padding: 15px;
+  }
+
+  article {
+    padding-top: 30px;
+  }
+
+  #cook {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    margin-bottom: 30px;
+  }
+
+  #dish1 {
+    width: 200px;
+  }
+
+  #dish2 {
+    width: 100px;
+  }
+
+  #dish3 {
+    width: 80px;
+  }
+
+  #dish4 {
+    width: 200px;
+  }  
+
+  #dishes li {
+    margin: 5px 5px 20px 5px;
+  }
+
+  .menu {
+    padding-right: 0;
+  }
+}
