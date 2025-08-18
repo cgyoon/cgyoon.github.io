@@ -1,0 +1,229 @@
+* {
+	padding: 0;
+	margin: 0;
+	word-break: keep-all;
+	font-size: 2.5vw;
+	box-sizing: border-box;
+	font-family: Times New Roman, SM3ssmj;
+	line-height: 1.2;
+}
+
+@font-face {
+ font-family: SM3ssmj;
+ src: url(SM3ssmj.otf);
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover,
+summary:hover {
+	color: lightgray;
+}
+
+body { 
+	-ms-overflow-style: none; 
+} 
+
+body::-webkit-scrollbar { 
+	display: none; 
+} 
+
+header,
+#first {
+	z-index: 2;
+}
+
+#first {
+	position: sticky;
+	top: 3.05vw;
+	background-color: white;
+}
+
+summary {
+	position: sticky;
+	top: 6.1vw;
+	background-color: white;
+	padding-bottom: 2.5vw;
+	background: linear-gradient(rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0) 100%);
+}
+
+.category {
+	position: sticky;
+}
+
+blockquote {
+	font-size: 16px;
+	line-height: 1.5;
+	padding-left: 32px;
+	margin-bottom: 16px;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 32px 0 16px 0;
+}
+
+figcaption {
+	font-size: 10px;
+	margin: 16px 0 16px 0;
+}
+
+img {
+	width: 40vw;
+	border: 1px solid black;
+}
+
+.en {
+	font-size: 2.5vw;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+header {
+	position: fixed;
+	width: 100vw;
+	background-color: white;
+}
+
+header,
+nav,
+article {
+	border-bottom: 1px solid black;
+}
+
+nav > ul {
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	width: calc(100% / 3);
+}
+
+li {
+	list-style: none;
+}
+
+.nav1,
+.nav2 {
+	border-right: 1px solid black;
+}
+
+section {
+	padding-top: 3.1vw;	
+}
+
+article > ul {
+	display: flex;
+}
+
+.category {
+	width: 15vw;
+}
+
+.title {
+	width: 50vw;
+}
+
+.author {
+	width: 20vw;
+}
+
+.date {
+	width: 15vw;
+}
+
+.category,
+.author,
+.title {
+	border-right: 1px solid black;
+}
+
+.title:hover,
+.author:hover {
+	cursor: pointer;
+}
+
+summary {
+  list-style-type: none; 
+}
+
+summary::-webkit-details-marker {
+  display: none; 
+}
+
+p {
+	line-height: 1.5;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid black;
+	width: 100%;
+	background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+	* {
+		font-size: 5vw;
+	}
+
+	section {
+		padding-top: 5.5vw;	
+	}
+
+	.break {
+		word-break: break-all;
+	}
+
+	.en {
+		font-size: 5vw;
+	}
+
+/*	#first li,
+	#first span {
+		font-size: 4vw;
+	}*/
+
+	.category {
+		width: 11vw;
+	}
+
+	.title {
+		width: 65vw;
+	}
+
+	.author {
+		width: 15vw;
+	}
+
+	.date {
+		width: 14vw;
+	}
+
+	blockquote {
+		margin-bottom: 16px;
+	}
+
+	figure {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 32px 0 16px 0;
+	}
+
+	figcaption {
+		font-size: 10px;
+		margin: 16px 0 16px 0;
+	}
+
+}

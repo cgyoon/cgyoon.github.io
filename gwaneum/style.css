@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	line-height: 1.2;
+} 
+
+body::-webkit-scrollbar { 
+	display: none; 
+} 
+
+section::-webkit-scrollbar { 
+	display: none; 
+}
+
+@font-face {
+	font-family: "ssmjg";
+	src: url("SM3ssmj.otf");
+}
+
+body {
+  	font-family: TimesNewRoman, "ssmjg", serif;
+}
+
+
+body {
+	width: 100%;
+	padding: 10px;
+}
+
+h1,
+html,
+body,
+section {
+	overflow-x: hidden;
+}
+
+section {
+	margin-bottom: 600px;
+}
+
+h1,
+h2 {
+	font-weight: normal;
+	font-size: 8.5vw;
+	line-height: 1.2;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	height: auto;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+figcaption {
+	padding-top: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+
+p {
+	padding: 0 15px 0px 0px;
+}
+
+.ind {
+	text-indent: 20px;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	list-style: none;
+}
+
+ol {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.words > li {
+	background-color: black;
+	color: white;
+	width: calc((100% - 200px) / 12);
+	height: 100px;
+	margin: 2.5px;
+	padding: 5px;
+	line-height: 1.5;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.one > li {
+	background-color: black;
+	color: white;
+	width: calc(100% - 25px);
+	margin: 2.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.two > li {
+	background-color: black;
+	color: white;
+	width: calc((100% - 30px) / 2);
+	margin: 2.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+.one div {
+	height: 500px
+}*/
+
+.one img,
+.ver {
+	width: 60%;
+}
+
+.three > li {
+	background-color: black;
+	color: white;
+	width: calc((100% - 35px) / 3);
+	margin: 2.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.four > li {
+	background-color: black;
+	color: white;
+	width: calc((100% - 40px) / 4);
+	margin: 2.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.four img {
+	height: 280px;
+}
+
+blockquote {
+	padding: 50px;
+	line-height: 1.5;
+}
+
+.wide {
+	width: 100%;
+}
+
+
+.text {
+	padding: 100px;
+}
+
+@media screen and (max-width: 900px) {
+
+.words > li {
+	background-color: black;
+	color: white;
+	width: calc((100% - 95px) / 5);
+	height: 100px;
+	margin: 2.5px;
+	padding: 5px;
+	line-height: 1.5;
+}
+
+blockquote {
+	width: 80%;
+	line-height: 1.5;
+	padding: 30px;
+}
+	
+}
