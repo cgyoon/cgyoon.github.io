@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica Neue, sans-serif;
+	text-align: center;
+	word-break: keep-all;
+}
+
+a:link {
+	color: #00a75d;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00a75d;
+	text-decoration: none;
+}
+
+table {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+span {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-lr;
+  	-ms-writing-mode: vertical-lr;
+	text-orientation: mixed;
+}
+
+tr {
+	color: #00a75d;
+	line-height: 0.8;
+}
+
+td {
+	transform: scale(0.8,1);
+	width: 20px;
+}
+
+.trunk {
+	color: black;
+}
+
+#button {
+	position: fixed;
+	bottom: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 15px;
+}
+
+#ddd {
+	position: fixed;
+	display: block;
+	font-size: 15px;
+	top: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 900;
+  background-color: #00a75d;
+  color: white;
+  padding: 20px;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+div a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.saying {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+	color: white;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+	#button {
+		font-size: 12px;
+}
+
+}
