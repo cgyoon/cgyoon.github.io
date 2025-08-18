@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	font-family: serif;
+	line-height: 1.7;
+}
+
+dt,
+dd {
+	display: inline;
+	padding: 4px 2px 4px 2px;
+}
+
+dd {
+	background-color: black;
+	color: white;
+}
+
+dt{
+	background-color: #F4F4EE;
+}
+
+ul {
+	position: absolute;
+	top: 24px;
+	background-color: gray;
+	list-style: none;
+}
+
+body { 
+-ms-overflow-style: none; 
+overflow: none;
+} 
+
+::-webkit-scrollbar { 
+display: none; 
+} 
+
+h1 {
+	top: 0;
+	left: 0;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: gray;
+}
+
+@font-face {
+  font-family: 'garamond';
+  src: url('GaramondPremrPro.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'sm3tmj';
+  src: url('SM3TaeMyungJo.otf') format('opentype');
+}
+
+@media (max-aspect-ratio: 3/2) {
+}
+
+@media (max-width: 900px) {
+
+}
