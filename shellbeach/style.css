@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	word-break: keep-all;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: antiquewhite;
+}
+
+#sea {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to bottom, mediumturquoise 100px, white 200px, antiquewhite);
+}
+
+h1 {
+	position: absolute;
+	font-size: 16px;
+	font-weight: normal;
+	z-index: 99;
+	color: white;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 75px;
+	text-align: center;
+}
+
+h1 a {
+	color: white;
+}
+
+#shells {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	padding: 300px 20px 50px 20px;
+}
+
+ul {
+	text-align: center;
+}
+
+.pearl {
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 900;
+  background: radial-gradient(white, white, gainsboro);
+  opacity: 0.5;
+  color: black;
+  padding: 15px 15px 5px 15px;
+  word-break: break-all;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .1);
+}
+
+.pearl:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	line-height: 1.35;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+p a{
+	color: black;
+	text-underline-offset: 3px;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+}
+
+img {
+	position: relative;
+	display: inline-block;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+.a {
+	width: 150px;
+	margin: 0 20px 0 20px;
+}
+
+.b {
+	width: 200px;
+}
+
+.c {
+	width: 300px;
+	margin: 0 20px 0 20px;
+}
+
+.d {
+	width: 400px;
+}
+
+.e {
+	width: 500px;
+}
+
+#shells img {
+	vertical-align: middle;
+}
+
+.close {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	color: lightgrey;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+small {
+	position: relative;
+	display: block;
+	z-index: 99;
+	color: black;
+	margin-top: 60px;
+}
+
+small a {
+	color: black;
+	text-underline-offset: 2px;
+}
+
+@media screen and (max-width: 1000px) {
+
+h1 {
+	width: 800px;
+	font-size: 35px;
+	padding-top: 60px;
+}
+
+.a {
+	width: 180px;
+}
+
+.b {
+	width: 300px;
+}
+
+.c {
+	width: 400px;
+}
+
+.d {
+	width: 600px;
+}
+
+.e {
+	width: 800px;
+}
+
+.pearl {
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  border-radius: 700px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, .2);
+}
+
+.close {
+	font-size: 70px;
+}
+
+p {
+	width: 550px;
+	font-size: 35px;
+}
+
+small {
+	margin-top: 100px;
+}
+
+#shells {
+	padding-bottom: 80px;
+}
+
+}
