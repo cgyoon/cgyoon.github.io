@@ -1,0 +1,383 @@
+* { 
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #d5d3cd;
+	overflow: hidden;
+	padding: 10px;
+	word-break: keep-all;
+	font-size: 30px;
+}
+
+h1 {
+	display: inline-block;
+	font-weight: normal;
+	font-size: 30px;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+div {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.ch {
+	background-color: saddlebrown;
+}
+
+.small {
+	background-color: olive;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#k1 {
+	background-color: #988068;
+}
+
+#k2 {
+	background-color: #a2a1a5;
+}
+
+#k3 {
+	background-color: #60564d;
+}
+
+#k4 {
+	background-color: #bcb7b3;
+}
+
+#k5 {
+	background-color: #acabb1;
+}
+
+#k6 {
+	background-color: #948f8d;
+}
+
+#k7 {
+	background-color: #90816a;
+}
+
+#k8 {
+	background-color: #8b8682;
+}
+
+#k9 {
+	background-color: #ffebd0;
+}
+
+#k10 {
+	background-color: #5b5845;
+}
+
+#k11 {
+	background-color: #dce1e7;
+}
+
+#k12 {
+	background-color: #a4aaa0;
+}
+
+#k13 {
+	background-color: #7b7a6e;
+}
+
+#k14 {
+	background-color: #7a66;
+}
+
+#k15 {
+	background-color: #545455;
+}
+
+#k16 {
+	background-color: #a7937a;
+}
+
+#k17 {
+	background-color: #7e756e;
+}
+
+#k18 {
+	background-color: #b9bdbf;
+}
+
+#k19 {
+	background-color: #9d9c8b;
+}
+
+#k20 {
+	background-color: #c0bdb8;
+}
+
+#k21 {
+	background-color: #94775f;
+}
+
+#k22 {
+	background-color: #928b78;
+}
+
+#k23 {
+	background-color: #5a4740;
+}
+
+#k24 {
+	background-color: #b1b4b9;
+}
+
+#k25 {
+	background-color: #6e6c56;
+}
+
+#k26 {
+	background-color: #cab3a3;
+}
+
+#k27 {
+	background-color: #4e423d;
+}
+
+#k28 {
+	background-color: #78715d;
+}
+
+#k29 {
+	background-color: #d4d9df;
+}
+
+
+#k30 {
+	background-color: #68655b;
+}
+
+#k31 {
+	background-color: #b8bbc2;
+}
+
+#k32 {
+	background-color: #968678;
+}
+
+#k33 {
+	background-color: #675642;
+}
+
+#k34 {
+	background-color: #bcb7b1;
+}
+
+#k35 {
+	background-color: #5a543b;
+}
+
+#k36 {
+	background-color: #625451;
+}
+
+#k37 {
+	background-color: #b0a494;
+}
+
+#k38 {
+	background-color: #9d856b;
+}
+
+#k39 {
+	background-color: #695e58;
+}
+
+
+#k40 {
+	background-color: #b3b0a7;
+}
+
+#k41 {
+	background-color: #584431;
+}
+
+#k42 {
+	background-color: #c3aa96;
+}
+
+#k43 {
+	background-color: #909052;
+}
+
+#k44 {
+	background-color: #bfbcb5;
+}
+
+#k45 {
+	background-color: #e9d4b9;
+}
+
+#k46 {
+	background-color: #737254;
+}
+
+#k47 {
+	background-color: #c4bcb9;
+}
+
+#k48 {
+	background-color: #b1b0ae;
+}
+
+#k49 {
+	background-color: #a29d89;
+}
+
+#k50 {
+	background-color: #a09792;
+}
+
+#k51 {
+	background-color: #cec9c3;
+}
+
+#k52 {
+	background-color: #a39b90;
+}
+
+#k53 {
+	background-color: #baa294;
+}
+
+#k54 {
+	background-color: #6e655e;
+}
+
+#k55 {
+	background-color: #9d9791;
+}
+
+#k56 {
+	background-color: #ded6d3;
+}
+
+#k57 {
+	background-color: #ababad;
+}
+
+#k58 {
+	background-color: #a09e9f;
+}
+
+#k59 {
+	background-color: #544240;
+}
+
+#k60 {
+	background-color: #c3c3c5;
+}
+
+#k61 {
+	background-color: #b9b5b3;
+}
+
+#k62 {
+	background-color: #918a81;
+}
+
+#k63 {
+	background-color: #b6b8bf;
+}
+
+#k64 {
+	background-color: #94977e;
+}
+
+#k65 {
+	background-color: #a4a4a2;
+}
+
+#k66 {
+	background-color: #5c5b56;
+}
+
+#k67 {
+	background-color: #675c56;
+}
+
+#k68 {
+	background-color: ;
+}
+
+#k69 {
+	background-color: ;
+}
+
+
+#k1:hover,
+#k2:hover,
+#k3:hover,
+#k4:hover,
+#k5:hover,
+#k6:hover,
+#k7:hover,
+#k8:hover,
+#k9:hover,
+#k10:hover,
+#k11:hover,
+#k12:hover,
+#k13:hover,
+#k14:hover,
+#k15:hover,
+#k16:hover,
+#k17:hover,
+#k18:hover,
+#k19:hover,
+#k20:hover,
+#k21:hover,
+#k22:hover,
+#k23:hover,
+#k24:hover,
+#k25:hover,
+#k26:hover,
+#k27:hover,
+#k28:hover,
+#k29:hover,
+#k30:hover,
+#k31:hover,
+#k32:hover,
+#k33:hover,
+#k34:hover,
+#k35:hover,
+#k36:hover,
+#k37:hover,
+#k38:hover,
+#k39:hover,
+#k40:hover,
+#k41:hover,
+#k42:hover,
+#k43:hover,
+#k44:hover,
+#k45:hover,
+#k46:hover  {
+	background-color: white
+}
+
+
+
+
+
+
