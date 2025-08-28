@@ -1,0 +1,394 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-break: keep-all;
+	color: red;
+	font-family: TimesNewRoman, serif;
+	list-style: none;
+}
+
+body {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+@font-face {
+	font-family: "SM3KGothic";
+	src: url(assets/fonts/SM3KGothic.otf);
+}
+
+@font-face {
+	font-family: "SM3ssmj";
+	src: url(assets/fonts/SM3ssmj.otf);
+}
+
+.ssmj {
+	font-family: SM3ssmj;
+	line-height: 1.35;
+}
+
+h1 {
+	font-weight: normal;
+	text-align: center;
+	writing-mode: vertical-rl;
+	line-height: 1;
+	width: 70px;
+	height: calc(100% - 40px);
+	padding-right: 24px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	border-right: 1.5px solid red;
+	font-size: 20px;
+}
+
+#codes {
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	width: calc(42.5vh + 100px);
+	height: calc(100% - 40px);
+	padding-left: 20px;
+}
+
+
+li {
+	font-size: 20px;
+	text-align: center;
+	width: calc(42.5vh + 300px);
+}
+
+
+#first {
+	position: absolute;
+	top: 0
+}
+
+#second {
+	position: absolute;
+	top: 10vh;
+}
+
+#third {
+	position: absolute;
+	top: 26vh;
+}
+
+#fourth {
+	position: absolute;
+	top: 52vh;
+}
+
+.circle1 {
+	position: absolute;
+	top: 0;
+	width: 9.5vh;
+	height: 9.5vh;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.circle2 {
+	position: absolute;
+	top: 0;
+	width: 15.5vh;
+	height: 15.5vh;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.circle3 {
+	position: absolute;
+	top: 0;
+	width: 25.5vh;
+	height: 25.5vh;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.circle4 {
+	position: absolute;
+	top: 0;
+	width: 42.5vh;
+	height: 42.5vh;
+	background-color: red;
+	border-radius: 50%;
+}
+
+#explain {
+	position: absolute;
+	font-size: 0;
+	top: 20px;
+	left: calc(42.5vh + 320px);
+	width: calc(100% - (42.5vh + 340px));
+	height: calc(100% - 40px);
+	border-left: 1.5px solid red;
+	border-bottom: 1.5px solid red;
+	overflow: auto;
+}
+
+article {
+	font-size: 20px;
+	display: inline-block;
+	width: calc(100%/8);
+	height: calc(100%/6);
+	border-top: 1.5px solid red;
+	border-right: 1.5px solid red;
+	text-align: center;
+	vertical-align: top;
+	line-height: 1.2;
+	word-break: break-all;
+
+}
+
+h1 a,
+#codes a {
+	text-decoration: none;
+}
+
+article:hover {
+	color: white;
+	background-color: red;
+	border: red;
+}
+
+article:hover > .ssmj {
+	color: white;
+	background-color: red;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.dsn,
+.edt {
+	height: 100%;
+	text-align: center;
+}
+
+details {
+	font-size: 20px;
+	border-bottom: 1.5px solid red;
+}
+
+summary {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+/* ------------------ html ------------------ */
+
+.selected {
+	background-color: white;
+	border: 1.5px solid red;
+}
+
+#blackboard {
+	position: absolute;
+	font-size: 0;
+	top: 20px;
+	left: calc(42.5vh + 320px);
+	width: calc(100% - (42.5vh + 340px));
+	height: calc(100% - 40px);
+	border-top: 1.5px solid red;
+	overflow: auto;
+}
+
+#blackboard { 
+-ms-overflow-style: none; 
+} 
+
+#blackboard::-webkit-scrollbar { 
+display: none; 
+}
+
+.html summary {
+	text-align: center;
+}
+
+.html li {
+	width: 100%;
+	text-align: left;
+	border-left: 1.5px solid red;
+	border-right: 1.5px solid red;
+}
+
+.ex1 {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 15px;
+}
+
+details {
+	padding: 10px;
+}
+
+dd {
+	margin-bottom: 20px;
+}
+
+xmp {
+	display: inline-block;
+	background-color: red;
+	color: white;
+}
+
+.ref li {
+	border: 0;
+}
+
+.paddingtop {
+	padding-top: 20px;
+}
+
+dt {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.tags dt {
+	text-decoration: none;
+}
+
+details a {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-underline-offset: 4px;
+}
+
+.ref li {
+	margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+	padding: 5px;
+}
+
+table {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 20px;
+}
+
+thead {
+	text-align: center;
+}
+@media (max-width: 800px) {
+
+  h1 {
+  	writing-mode: horizontal-tb;
+  	width: calc(100% - 20px);
+  	top: 5px;
+  	left: 10px;
+  	height: 30px;
+  	border-right: none;
+  	border-bottom: 1.5px solid red;
+  	padding-right: 0;
+  }
+
+  #codes {
+  	top: 45px;
+  	left: 10px;
+  	width: calc(100% - 20px);
+  	height: calc(36vw + 180px);
+  }
+
+  #codes li {
+		width: 200px;
+		height: 365px;
+		writing-mode: vertical-rl;
+	}
+
+	#first {
+		position: absolute;
+		right: 0vw;
+	}
+
+	#second {
+		position: absolute;
+		top: 0;
+		right: 10.75vw;
+	}
+
+	#third {
+		position: absolute;
+		top: 0;
+		right: 27.5vw;
+	}
+
+	#fourth {
+		position: absolute;
+		top: 0;
+		right: 55.5vw;
+	}
+
+	.circle1 {
+		position: absolute;
+		right: 0;
+		width: 10vw;
+		height: 10vw;
+	}
+
+	.circle2 {
+		position: absolute;
+		right: 0;
+		width: 16vw;
+		height: 16vw;
+	}
+
+	.circle3 {
+		position: absolute;
+		right: 0;
+		width: 27vw;
+		height: 27vw;
+	}
+
+	.circle4 {
+		position: absolute;
+		right: 0;
+		width: 39vw;
+		height: 39vw;
+	}
+
+  #explain {
+  	top: calc(36vw + 230px);
+  	left: 10px;
+  	width: calc(100% - 20px);
+  	height: calc(100% - (36vw + 240px));
+  }
+
+	#blackboard {
+  	top: calc(36vw + 230px);
+  	left: 10px;
+  	width: calc(100% - 20px);
+  	height: calc(100% - (36vw + 240px));
+  }
+
+  article {
+  	font-size: 15px;
+  	line-height: 1;
+  }
+
+	.ex1 {
+		font-size: 10px;
+	}
+
+	dt, xmp {
+		word-break: break-all;
+	}
+
+}

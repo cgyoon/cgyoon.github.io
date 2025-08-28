@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>웹사이트 활용법 How to Use a Website</title>
+	<meta name="description" content="쓰임에 따라 웹사이트 만들기">
+	<meta name="keywords" content="웹사이트, HTML, CSS, JavsScript, FTP">
+
+	<!-- Google / Search Engine Tags -->
+	<meta itemprop="name" content="웹사이트 사용법">
+	<meta itemprop="description" content="쓰임에 따라 웹사이트 만들기">
+	<meta itemprop="image" content="thumbnail.jpg">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="http://choong.city/howtouseawebsite">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="웹사이트 사용법">
+	<meta property="og:description" content="쓰임에 따라 웹사이트 만들기">
+	<meta property="og:image" content="thumbnail.jpg">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="웹사이트 사용법">
+	<meta name="twitter:description" content="쓰임에 따라 웹사이트 만들기">
+	<meta name="twitter:image" content="thumbnail.jpg">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1><a href="index.html"><span class="ssmj">웹사이트 활용법&nbsp;&nbsp;</span>How to Use a Website</a></h1>
+	<section id="codes">
+		<ol>
+			<li id="first"><a href="html.html">Hyper Text Markup Language<div class="circle1 selected"></div></a></li>
+			<li id="second"><a href="css.html">Cascading Style Sheets<div class="circle2"></div></a></li>
+			<li id="third"><a href="js.html">JavaScript<div class="circle3"></div></a></li>
+			<li id="fourth"><a href="and.html">and...<div class="circle4"></div></a></li>
+		</ol>
+	</section>
+	<section id="blackboard" class="html">
+		<ol>
+			<li>
+				<details>
+		    	<summary><span class="ssmj">초본문표식달기언어</span> HTML</summary>
+		    	<dl class="paddingtop">
+		    		<dt><span class="ssmj">암호</span> Code</dt>
+		    		<dd><span class="ssmj">인간과 컴퓨터가 소통하기 위한 언어</span></dd>
+		    		<dt><span class="ssmj">웹</span> World Wide Web</dt>
+		    		<dd><span class="ssmj">인터넷을 통해 문서나 자원에 접근할 수 있는 정보 체계</span></dd>
+		    		<dt><span class="ssmj">웹 페이지</span> Web Page</dt>
+		    		<dd><span class="ssmj">웹상의 하이퍼텍스트 문서</span></dd>
+		    		<dt><span class="ssmj">웹사이트</span> Website</dt>
+		    		<dd><span class="ssmj">웹페이지의 모음</span></dd>
+		    		<dt><span class="ssmj">초본문표식달기언어</span> HTML</dt>
+		    		<dd><span class="ssmj">웹 페이지를 만드는 언어, 웹 페이지의 확장자</span></dd>
+		    		<dt><span class="ssmj">웹 에디터</span>&nbsp;Web Editor</dt>
+		    		<dd><a href="https://www.sublimetext.com"><span class="ssmj">서브라임 텍스트</span></a>, <span class="ssmj">비주얼 스튜디오 코드</span>, ...</dd>
+		    		<dt><span class="ssmj">웹 브라우저</span>&nbsp;Web Browser</dt>
+		    		<dd><span class="ssmj">사파리</span>, <span class="ssmj">크롬</span>, <span class="ssmj">파이어폭스</span>, ... </dd>
+		    	</dl>
+				</details>
+			</li>
+			<li>
+				<details>
+		    	<summary><span class="ssmj">구조</span> Structure</summary>
+					<div class="paddingtop"></div>
+<xmp class="ex1 "><p></xmp>
+		    	<dl>
+						<dt><span class="ssmj">태그</span> Tag</dt>
+		    		<dd>HTML <span class="ssmj">문서를 구성하는 기본 단위</span></dd>
+		    	</dl>
+					<div class="paddingtop"></div>
+<xmp class="ex1 "><p></p></xmp>
+		    	<dl>
+		    		<dt><span class="ssmj">여는 태그</span> Opening Tag, <span class="ssmj">닫는 태그</span> Closing Tag</dt>
+						<dd class="ssmj">여는 태그에서 닫는 태그까지를 태그의 적용 범위로 인식. (단일 태그 제외)</dd>
+		    	</dl>
+					<div class="paddingtop"></div>
+					<div class="paddingtop"></div>
+<xmp class="ex1 "><p class="apple"></p></xmp>
+		    	<ol>
+						<dt><span class="ssmj">속성 이름</span> Attribute Name</dt>
+		    		<dd><span class="ssmj">여는 태그 안에 쓰여 기능을 추가</dd>
+						<dt><span class="ssmj">속성 값</span> Attribute Value</dt>
+		    		<dd><span class="ssmj">추가하는 기능을 위한 구체적인 값</span></dd>
+		    	</ol>
+					<div class="paddingtop"></div>
+<xmp class="ex1"><html>
+  <head></head>
+  <body></body>
+</html></xmp>
+					<dl>
+		    		<dt><xmp><html></xmp></dt>
+		    		<dd class="ssmj">문서 시작</dd>
+		    		<dt><xmp><head></xmp></dt>
+		    		<dd class="ssmj">문서에 대한 정보(메타데이터) 명시</dd>
+		    		<dt><xmp><body></xmp></dt>
+		    		<dd class="ssmj">웹 페이지에 표시할 내용</dd>
+					<div class="paddingtop"></div>
+<xmp class="ex1"><!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  </body>
+</html></xmp>
+		    	<dl>
+		    		<dt><xmp><!DOCTYPE html></xmp></dt>
+		    		<dd>html <span class="ssmj">문서 유형 지정</span></dd>
+		    		<dt><xmp>lang="ko"</xmp></dt>
+		    		<dd class="ssmj">사용 언어 명시</dd>
+		    		<dt><xmp><title></title></xmp></dt>
+		    		<dd class="ssmj">웹 페이지 제목 표기</dd>
+		    		<dt><xmp><meta charset="UTF-8"></xmp></dt>
+		    		<dd class="ssmj">문자 인코딩 지정</dd>
+		    		<dt><xmp><meta name="viewport"></xmp></dt>
+		    		<dd class="ssmj">뷰포트 지정</dd>
+			    	<dt><xmp><meta name="keywords"></xmp></dt>
+			    	<dd class="ssmj">키워드 설정</dd>
+		    		<dt><xmp><meta name="description"></xmp></dt>
+		    		<dd class="ssmj">웹 페이지 설명</dd>
+		    		<dt><xmp><link></xmp></dt>
+		    		<dd class="ssmj">현재 문서와 외부 자원의 관계 명시</dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details>
+		    	<summary><span class="ssmj">구획</span> Section</summary>
+		    	<dl class="paddingtop tags">
+		    		<dt><xmp><header></xmp></dt>
+		    		<dd class="ssmj">제목, 로고, 검색창 등 소개 및 탐색에 도움을 주는 구획</dd>
+		    		<dt><xmp><nav></xmp></dt>
+		    		<dd class="ssmj">메뉴, 목차, 색인 등 다른 페이지로의 링크를 보여주는 구획</dd>
+		    		<dt><xmp><section></xmp></dt>
+		    		<dd class="ssmj">문서의 독립적인 구획</dd>
+		    		<dt><xmp><article></xmp></dt>
+		    		<dd class="ssmj">게시판과 블로그 글, 매거진이나 뉴스 기사 등 독립적으로 구분해 배포하거나 재사용할 수 있는 구획</dd>
+		    		<dt><xmp><h1></xmp>, <xmp><h2></xmp>, <xmp><h3></xmp>, <xmp><h4></xmp>, <xmp><h5></xmp>, <xmp><h6></xmp></dt>
+		    		<dd class="ssmj">구획의 제목</dd>
+		    		<dt><xmp><aside></xmp></dt>
+		    		<dd class="ssmj">문서의 주요 내용과 간접적으로 연관된 내용을 담는 구획</dd>
+		    		<dt><xmp><footer></xmp></dt>
+		    		<dd class="ssmj">작성자, 저작권 정보, 관련 문서 등을 내용을 담는 구획</dd>
+		    		<dt><xmp><address></xmp></dt>
+		    		<dd class="ssmj">사람, 단체, 조직 등에 대한 연락처 정보를 담는 구획</dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details>
+		    	<summary><span class="ssmj">그룹핑</span> Grouping</summary>
+		    	<dl class="paddingtop tags">
+		    		<dt><xmp><p></xmp></dt>
+		    		<dd>paragraph. <span class="ssmj">문단</span></dd>
+		    		<dt><xmp><ol></xmp></dt>
+		    		<dd>ordered list. <span class="ssmj">순서가 있는 목록</span></dd>
+		    		<dt><xmp><ul></xmp></dt>
+		    		<dd>unordered list. <span class="ssmj">순서가 없는 목록</span></dd>
+		    		<dt><xmp><li></xmp></dt>
+		    		<dd>list item. <span class="ssmj">목록의 항목</dd>
+			    	<dt><xmp><dl></xmp>, <xmp><dt></xmp>, <xmp><dd></xmp></dt>
+			    	<dd>description list. <span class="ssmj">설명 목록</span><br>description term. <span class="ssmj">설명 용어</span><br>description definition. <span class="ssmj">설명 정의</span></dd>
+		    		<dt><xmp><figure></xmp>, <xmp><figcaption></xmp></dt>
+		    		<dd><span class="ssmj">도판</span></dd>
+		    		<dt><xmp><blockquote></xmp></dt>
+		    		<dd><span class="ssmj">인용문</dd>
+		    		<dt><xmp><pre></xmp></dt>
+		    		<dd>preformatted. <span class="ssmj">영역 설정</dd>
+		    		<dt><xmp><div></xmp></dt>
+		    		<dd>division. <span class="ssmj">영역 설정</dd>
+		    		<dt><xmp><hr></xmp></dt>
+		    		<dd>horizontal rule. <span class="ssmj">수평선</span></dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details>
+		    	<summary><span class="ssmj">글 단계 의미론</span> Text-level Semantic</summary>
+		    	<dl class="paddingtop tags">
+		    		<dt><xmp><a></xmp></dt>
+		    		<dd>anchor. <span class="ssmj">다른 페이지나 같은 페이지의 특정 위치로 연결할 수 있는 하이퍼링크</span></dd>
+		    		<dt><xmp><i></xmp></dt>
+		    		<dd>italic. <span class="ssmj">기술 용어, 외국어 구절, 등장인물의 생각 등 주위와 구분해야 하는 글</span></dd>
+		    		<dt><xmp><em></xmp></dt>
+		    		<dd>emphasize. <span class="ssmj">강세가 필요한 글</span></dd>
+		    		<dt><xmp><cite></xmp></dt>
+		    		<dd class="ssmj">창작물이나 저작물 등의 글</dd>
+		    		<dt><xmp><strong></xmp></dt>
+		    		<dd class="ssmj">중요성, 긴급성, 심각성을 알리는 글</dd>
+		    		<dt><xmp><bold></xmp></dt>
+		    		<dd class="ssmj">주의를 끌기 위한 글</dd>
+		    		<dt><xmp><q></xmp></dt>
+		    		<dd>quote. <span class="ssmj">인용</span></dd>
+		    		<dt><xmp><dfn></xmp></dt>
+		    		<dd>definition. <span class="ssmj">정의</span></dd>
+		    		<dt><xmp><abbr></xmp></dt>
+		    		<dd>abbreviation. <span class="ssmj">약자</span></dd>
+		    		<dt><xmp><ruby></xmp></dt>
+		    		<dd><span class="ssmj">루비</span></dd>
+		    		<dt><xmp><rt></xmp></dt>
+		    		<dd>ruby annotation. <span class="ssmj">수평선</span></dd>
+		    		<dt><xmp><rp></xmp></dt>
+		    		<dd>horizontal rule. <span class="ssmj">수평선</span></dd>
+		    		<dt><xmp><small></xmp></dt>
+		    		<dd class="ssmj">덧붙이는 글이나, 저작권과 법률 표기 등의 작은 글</dd>
+			    	<dt><xmp><sup></xmp>, <xmp><sub></xmp></dt>
+			    	<dd class="ssmj">윗첨자, 아래첨자</dd>
+			    	<dt><xmp><bdi></xmp></dt>
+			    	<dd>Bi-Directional Isolation. <span class="ssmj">줄 바꿈</span></dd>
+		    		<dt><xmp><bdo></xmp></dt>
+			    	<dd>Bi-Directional Override. <span class="ssmj">줄 바꿈</span></dd>
+			    	<dt><xmp><br></xmp></dt>
+			    	<dd>break. <span class="ssmj">줄 바꿈</span></dd>
+			    	<dt><xmp><wbr></xmp></dt>
+			    	<dd>Word Break Opportunity. <span class="ssmj">단어 중간에서 행바꿈될 수 있는(line-break) 위치를 정의</span></dd>
+			    	<dt><xmp><span></xmp></dt>
+			    	<dd class="ssmj">의미를 지니지 않고 스타일을 적용하거나 속성값이 같은 요소를 묶을 때 사용</dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details>
+		    	<summary><span class="ssmj">임베드</span> Embed</summary>
+		    	<dl class="paddingtop tags">
+		    		<dt><img><audio></xmp></dt>
+		    		<dd class="ssmj">이미지를 삽입</dd>
+		    		<dt><xmp><video></xmp></dt>
+		    		<dd class="ssmj">영상을 삽입</dd>
+		    		<dt><xmp><audio></xmp></dt>
+		    		<dd class="ssmj">소리를 삽입</dd>
+		    		<dt><xmp><source></xmp></dt>
+		    		<dd class="ssmj"></dd>
+		    		<dt><xmp><iframe></xmp></dt>
+		    		<dd>inline frame. <span class="ssmj">현재 페이지에 다른 페이지를 삽입</span></dd>
+		    		<dt><xmp><map></xmp>, <xmp><area></xmp></dt>
+		    		<dd class="ssmj">이미지에 링크</dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details>
+		    	<summary><span class="ssmj">표</span> Table</summary>
+		    	<dl class="paddingtop tags">
+		    		<table>
+		    			<thead>
+		    					<td colspan="5">투모로우바이투게더</td>
+		    				</tr>
+					    <tbody>
+					    	<tr>
+					        <td>연준</td>
+					        <td>수빈</td>
+					        <td>범규</td>
+					        <td>태현</td>
+					        <td>휴닝카이</td>
+					    	</tr>
+					    </tbody>
+					</table>
+		    		<dt><xmp><thead></xmp>, <xmp><tbody></xmp>, <xmp><tfoot></xmp></dt>
+		    		<dd>table head 열의 머리글인 행들의 집합, table body, table foot</dd>
+		    		<dt><xmp><tr></xmp>, <xmp><th></xmp>, <xmp><td></xmp></dt>
+		    		<dd>table row, table data</dd>
+		    		<dt><xmp><caption></xmp></dt>
+		    		<dd>표의 제목</dd>
+		    		<dt><xmp><col></xmp></dt>
+		    		<dd>열을 묶는 그룹을 정의</dd>
+		    		<dt><xmp><colgroup></xmp></dt>
+		    		<dd>열을 묶는 그룹을 정의</dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details>
+		    	<summary><span class="ssmj">폼</span> Form</summary>
+		    	<dl class="paddingtop tags">
+		    		<dt><xmp><iframe></xmp></dt>
+		    		<dd>inline frame. <span class="ssmj">현재 페이지에 다른 페이지를 삽입</span></dd>
+		    		<dt><xmp><video></xmp></dt>
+		    		<dd class="ssmj">영상을 삽입</dd>
+		    		<dt><xmp><audio></xmp></dt>
+		    		<dd class="ssmj">소리를 삽입</dd>
+	    			<dt><xmp><textarea></xmp></dt>
+		    		<dd class="ssmj">글자를 입력하는 영역</dd>
+	    			<dt><xmp><progress></xmp></dt>
+		    		<dd class="ssmj">진행 상태를 표</dd>
+    				<dt><xmp><fieldset>, <legend>, <input>, <label></xmp></dt>
+		    		<dd class="ssmj">진행 상태를 표</dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details>
+		    	<summary><span class="ssmj">상호작용</span> Interactive</summary>
+		    	<dl class="paddingtop tags">
+		    		<dt><xmp><details></xmp>, <xmp><summary></xmp></dt>
+		    		<dd></span></dd>
+			    </dl>
+				</details>
+			</li>
+
+			<li>
+				<details class="ref">
+		    	<summary><span class="ssmj">참고</span> Reference</summary>
+		    		<ol class="paddingtop">
+		    			<li><a href="https://html.spec.whatwg.org/multipage/">HTML Living Standard</a></li>
+		    			<li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a></li>
+		    			<li><a href="https://www.youtube.com/watch?v=CkzbI1Tv_rQ">Basics of HTML</a></li>
+		    		</ol>
+				</details>
+			</li>
+		</ol>
+	</section>
+</body>
+</html>
+
+
