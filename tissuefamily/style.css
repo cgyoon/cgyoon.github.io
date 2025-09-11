@@ -18,15 +18,23 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	font-weight: normal;
 	font-size: 16px;
 }
 
-/*.rs {
-	flex-direction: column;
+h3 {
+	color: white;
 }
-*/
+
+a {
+	text-decoration: none;
+}
+
+h1 a {
+	color: black;
+}
 .rs div {
 	width: 100%;
 }
@@ -224,6 +232,58 @@ h2 {
 
 li {
 	list-style: none;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: auto;
+  transition: opacity 500ms;
+  visibility: hidden;
+  z-index: 900;
+  opacity: 0;
+  color: black;
+  background-color: black;
+  word-break: keep-all;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+}
+
+.popup p {
+	color: white;
+}
+
+.popup p a {
+	color: white;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.popup p a:hover {
+	opacity: 0.5;
+}
+
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.resident a {
+	color: white;
+}
+
+.officer a {
+	color: black;
 }
 
 @media screen and (max-width: 1000px) {
