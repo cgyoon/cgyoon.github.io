@@ -2,9 +2,10 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	word-break: keep-all;
 }
 
-header {
+.hometitle {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -35,6 +36,7 @@ a {
 h1 a {
 	color: black;
 }
+
 .rs div {
 	width: 100%;
 }
@@ -284,6 +286,24 @@ li {
 
 .officer a {
 	color: black;
+}
+
+/*dl {
+	display: flex;
+}*/
+
+dd {
+	margin-bottom: 16px;
+}
+
+.glossary h1 {
+	text-align: center;
+	padding: 32px;
+}
+
+dl {
+	padding: 16px;
+	line-height: 1.5;
 }
 
 @media screen and (max-width: 1000px) {
