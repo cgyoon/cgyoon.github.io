@@ -306,6 +306,11 @@ dl {
 	line-height: 1.5;
 }
 
+dt {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
 @media screen and (max-width: 1000px) {
 	.events ul {
 		writing-mode: horizontal-tb;
