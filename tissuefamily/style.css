@@ -55,6 +55,7 @@ h1 a {
 	right: 10px;
 	display: inline-flex;
 	flex-direction: column;
+	z-index: 2;
 }
 
 .events ul {
@@ -69,23 +70,18 @@ h1 a {
 
 .resident {
 	position: absolute;
-	right: 10px;
-	top: 50%;
-	width: 30%;
-	height: 30%;
+	left: 15%;
+	top: 10px;
+	width: 45%;
+	height: calc(100% - 20px);
 }
 
 .resident ul {
-	display: inline-flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	width: 100%;
 	height: 100%;
 }
 
 .resident li {
-	width: 50%;
-	height: 50%;
 	background-color: #333333;
 	color: white;
 	display: flex;
@@ -93,16 +89,36 @@ h1 a {
 	align-items: center;
 }
 
-.resident div {
-	width: 50%;
-	height: 100%;
+.top {
+	position: relative;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	top: 0;
+	width: 100%;
+	height: 20%;
+}
+
+.top li {
+	width: calc(100% / 3);
+}
+
+.bottom {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	bottom: 0;
+	width: 100%;
+	height: 20%;
+	background-color: yellow;
+}
+
+.bottom li {
+	width: calc(100% / 3);
 }
 
 .meeting {
-	left: 37.5%;
+	right: 3.5%;
 	bottom: 10px;
 	width: 25%;
 	height: 30%;
@@ -110,8 +126,8 @@ h1 a {
 }
 
 .lounge {
-	top: 10px;
-	left: 35%;
+	top: 35%;
+	right: 3.5%;
 	width: 20%;
 	height: 10%;
 	background-color: #4E614E;
@@ -120,6 +136,7 @@ h1 a {
 .meeting,
 .lounge,
 .library,
+.store,
 .gym,
 .kitchen,
 .refri,
@@ -149,46 +166,30 @@ h1 a {
 	background-color: #4E614E;
 }
 
+.store {
+	top: 10px;
+	right: 32.5%;
+	width: 5%;
+	height: 20%;
+	background-color: #949494;
+}
+
 .library {
 	bottom: 10px;
-	left: 27.5%;
+	right: 32.5%;
 	width: 5%;
-	height: 50%;
+	height: 40%;
 	background-color: #949494;
 }
 
 .officer {
 	position: absolute;
+	display: inline-flex;
+	flex-direction: column;
 	bottom: 10px;
 	left: 10px;
 	height: 70%;
-	width: 25%;
-}
-
-.inner {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 30%;
-	height: 100%;
-}
-
-.outer {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 30%;
-	height: 66.66%;
-}
-
-.inner li {
-	width: 100%;
-	height: 33.33%;
-}
-
-.outer li {
-	width: 100%;
-	height: 50%;
+	width: 10%;
 }
 
 .officer li {
@@ -196,11 +197,19 @@ h1 a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	writing-mode: vertical-rl;
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+
+.si {
+	border: 1px solid white;
 }
 
 .gym {
 	top: 10px;
-	left: 57.5%;
+	right: 25%;
 	width: 5%;
 	height: 10%;
 	background-color: #C4C4C4;
@@ -309,9 +318,19 @@ dl {
 dt {
 	text-decoration: underline;
 	text-underline-offset: 3px;
+/*	text-decoration-style: dashed;*/
 }
 
 @media screen and (max-width: 1000px) {
+
+	.hometitle {
+		left: 35%;
+	}
+
+	.events {
+		top: 22.5%;
+	}
+
 	.events ul {
 		writing-mode: horizontal-tb;
 	}
@@ -332,18 +351,18 @@ dt {
 		left: 50%;
 	}
 
+	h1,
 	.meeting,
 	.lounge,
 	.library,
+	.store,
 	.gym,
 	.kitchen,
 	.refri,
 	.storage,
 	.chair1,
 	.chair2,
-	.inner li,
-	.outer li,
-	.resident div {
+	.store {
 		writing-mode: vertical-rl;
 	}
 
@@ -354,4 +373,14 @@ dt {
 		text-orientation: upright;
 	}
 
+	.meeting {
+		height: 28%;
+	}
+
+	.lounge {
+		top: calc(10px + 57.5%);
+		right: 3.5%;
+		width: 20%;
+		height: 10%;
+	}
 }
