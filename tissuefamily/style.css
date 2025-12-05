@@ -184,12 +184,16 @@ h1 a {
 
 .officer {
 	position: absolute;
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
 	bottom: 10px;
 	left: 10px;
 	height: 70%;
 	width: 10%;
+}
+
+.officer ul {
+	height: 100%;
 }
 
 .officer li {
@@ -198,13 +202,8 @@ h1 a {
 	justify-content: center;
 	align-items: center;
 	writing-mode: vertical-rl;
-	position: relative;
 	width: 100%;
 	height: 50%;
-}
-
-.si {
-	border: 1px solid white;
 }
 
 .gym {
@@ -212,7 +211,8 @@ h1 a {
 	right: 25%;
 	width: 5%;
 	height: 10%;
-	background-color: #C4C4C4;
+	background-color: #F0F0E9;
+	color: black;
 }
 
 .kitchen {
