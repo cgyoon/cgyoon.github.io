@@ -329,6 +329,11 @@ footer p {
 
 @media screen and (max-width: 1000px) {
 
+	.glossary h1 {
+		writing-mode: horizontal-tb;
+		padding: 40px;
+	}
+
 	.hometitle {
 		left: 35%;
 	}
