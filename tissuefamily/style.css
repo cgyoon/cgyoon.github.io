@@ -321,6 +321,12 @@ dt {
 /*	text-decoration-style: dashed;*/
 }
 
+footer p {
+	padding: 40px;
+	text-align: center;
+	font-size: 12px;
+}
+
 @media screen and (max-width: 1000px) {
 
 	.hometitle {
