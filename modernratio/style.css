@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	word-break: keep-all;
+}
+
+body {
+	background-color: gainsboro;
+	padding: 20px;
+}
+
+body { 
+-ms-overflow-style: none; 
+} 
+
+::-webkit-scrollbar { 
+display: none; 
+} 
+
+h1 {
+	position: fixed;
+	font-size: 16px;
+	font-weight: normal;
+	writing-mode: vertical-rl;
+	right: 20px;
+	letter-spacing: -3px;
+	z-index: 99;
+}
+
+figure {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+figcaption {
+	writing-mode: vertical-rl;
+	letter-spacing: -1px;
+	word-spacing: 3px;
+}
+
+img {
+	z-index: 9;
+}
+
+div {
+	position: relative;
+}
+
+img:hover {
+	opacity: 0.2;
+}
+
+p:hover {
+	display: block;
+}
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+	z-index: -1;
+}
+
+.date {
+	letter-spacing: 1px;
+	word-spacing: 0px;
+}
+
+.one {
+	width: 100px;
+}
+
+.two {
+	width: 200px;
+}
+
+.three {
+	width: 300px;
+}
+
+.four {
+	width: 400px;
+}
+
+.five {
+	width: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+
+body {
+	padding: 40px;
+	font-size: 30px;
+}
+
+h1 {
+	position: fixed;
+	font-size: 30px;
+	top: 40px;
+	right: 40px;
+}
+
+}
