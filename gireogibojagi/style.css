@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: TimesNewRoman, "SM3ssmj";
+}
+
+#tohome,
+#tonumber {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ol {
+	position: absolute;
+	top: 52.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	list-style: none;
+
+}
+
+li {
+	margin-bottom: 25px;
+}
+
+h1,
+h2 {
+	font-weight: normal;
+	font-size: 16px;
+}
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	letter-spacing: -0.54px;
+	text-align: justify;
+	text-align-last: justify;
+}
+
+#one {
+	width: 221px;
+}
+
+#two {
+	width: 257px;
+}
+
+#three {
+	width: 246.5px;
+}
+
+#four {
+	width: 258px;
+}
+
+#five {
+	width: 232px;
+}
+
+#six {
+	width: 240px;
+}	
+
+#seven {
+	width: 257px;
+	text-align: center;
+	text-align-last: center;
+}
+
+#eight {
+	width: 267px;
+}
+
+#nine {
+	width: 252px;
+}
+
+@font-face {
+	font-family: "SM3ssmj";
+	src: url(fonts/SM3ssmj.otf);
+}
+
+#home {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100px;
+	height: 300px;
+}
+
+#title {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	writing-mode: vertical-rl;
+	letter-spacing: 1.5px;
+}
+
+#poet {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+	writing-mode: vertical-rl;
+	letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 900px)  {
+
+}
+
+
