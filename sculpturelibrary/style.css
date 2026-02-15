@@ -1,0 +1,367 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-break: keep-all;
+}
+
+@font-face {
+  font-family: 'eulyoo'; /* 폰트 이름 정의 */
+  src: url('eulyoo1945_regular.woff') format('woff'); /* 권장 */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gm {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1;
+}
+
+body { 
+	-ms-overflow-style: none; 
+} 
+
+body::-webkit-scrollbar { 
+	display: none; 
+} 
+
+a {
+	color: black;
+	cursor: pointer;
+}
+
+.ur {
+	text-orientation: upright;
+	font-size: 18px;
+}
+
+.fountain,
+.arc {
+	position: absolute;
+}
+
+.fountain {
+	top: 5vw;
+	left: 15vw;
+	background-color: #9ddbd8;
+	width: 30vw;
+	height: 30vw;
+	border-radius: 50%;
+}
+
+.arc {
+	right: 10vw;
+	bottom: 10vh;
+ 	width: 0;
+  	height: 0;
+  	border-bottom: 70vh solid #3e2b27; /* 높이 */
+  	border-left: 55vw solid transparent; /* 대각선 방향 투명 */
+}
+
+.titleen,
+.titlekr {
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	padding: 20px;
+}
+
+.titleen {
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+}
+
+.titlekr {
+	right: 0;
+	height: 100%;
+	writing-mode: vertical-rl;
+	text-align: center;
+	font-family: eulyoo, serif;
+	font-size: 17px;
+}
+
+li {
+	list-style: none;
+	display: flex;
+}
+
+.en,
+.kr {
+	position: absolute;
+}
+
+.en {
+	font-size: 18px;
+	top: 15svh;
+	left: 20px;
+	height: 75svh;
+/*	border: 1px solid red;*/
+}
+
+.en ol {
+	display: flex;
+	flex-direction: column-reverse;
+/*	border: 5px solid lightgray;*/
+	width: 100%;
+	height: 100%;
+}
+
+.en li {
+	display: flex;
+	justify-content: space-between;
+}
+.en li {
+	border-top: 1px solid black;
+}
+
+.en li:nth-child(1) {
+	width: 34vw;
+}
+
+.en li:nth-child(2) {
+	width: 43vw;
+	height: 30%;
+}
+
+.en li:nth-child(3) {
+	width: 45vw;
+	height: 5%;
+}
+
+.en li:nth-child(4) {
+	width: 48vw;
+	height: 5%;
+}
+
+.en li:nth-child(5) {
+	width: 50vw;
+	height: 5%;
+}
+
+.en li:nth-child(6) {
+	width: 54vw;
+	height: 15%;
+}
+
+.en li:nth-child(7) {
+	width: 57vw;
+	height: 6%;
+}
+
+.en li:nth-child(8) {
+	width: 62vw;
+	height: 6%;
+}
+
+.en li:nth-child(9) {
+	width: 76vw;
+	height: 15%;
+}
+
+.en li:nth-child(10) {
+	width: 80vw;
+	height: 5%;
+}
+
+.en li:nth-child(11) {
+	width: 88vw;
+	height: 8%;
+}
+
+.en .author {
+/*	border: 1px solid orange;*/
+	width: 12vw;
+}
+
+.en .title {
+	position: absolute;
+/*	border: 1px solid purple;*/
+	width: 28vw;
+	left: 13vw;
+}
+
+.en .year {
+	right: 0;
+}
+
+.kr {
+	right: 3vw;
+	bottom: 20px;
+	writing-mode: vertical-lr;
+	width: 42vw;
+	height: 80vh;
+	font-family: eulyoo, serif;
+}
+
+.kr ol {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+/*	border: 5px solid green;*/
+	align-items: flex-end;
+}
+
+.kr li {
+	justify-content: space-between;
+	border-left: 1px solid black;
+	padding-left: 3px;
+	font-size: 17px;
+}
+
+.kr li:nth-child(1) {
+	width: 10%;
+	height: 40vh;
+}
+
+.kr li:nth-child(2) {
+	width: 4%;
+	height: 48vh;
+}
+
+.kr li:nth-child(3) {
+	width: 8%;
+	height: 52vh;
+}
+
+.kr li:nth-child(4) {
+	width: 8%;
+	height: 56vh;
+}
+
+.kr li:nth-child(5) {
+	width: 40%;
+	height: 60vh;
+}
+
+.kr li:nth-child(6) {
+	width: 4%;
+	height: 72vh;
+}
+
+.kr li:nth-child(7) {
+	width: 10%;
+	height: 74vh;
+}
+
+.kr li:nth-child(8) {
+	width: 10%;
+	height: 77vh;
+}
+
+.kr .year {
+	font-size: 18px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+}
+
+footer p {
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+@media screen and (max-width: 900px) {
+
+	.fountain {
+		left: 5vw;
+		top: 5vh;
+		width: 40vh;
+		height: 40vh;
+	}
+
+	.titleen {
+
+	}
+
+	.titlekr {
+		bottom: 70px;
+		height: 50%;
+/*		border: 2px solid blue;*/
+	}
+
+	.en {
+		top: 60px;
+		width: calc(100% - 40px);
+		height: 40%;
+	}
+
+	.en ol {
+		justify-content: flex-end;
+	}
+
+	.en li:nth-child(1),
+	.en li:nth-child(2),
+	.en li:nth-child(3),
+	.en li:nth-child(4),
+	.en li:nth-child(5),
+	.en li:nth-child(6),
+	.en li:nth-child(7),
+	.en li:nth-child(8),
+	.en li:nth-child(9),
+	.en li:nth-child(10),
+	.en li:nth-child(11) {
+		width: 100%;
+		height: auto;
+	}
+
+	.en li {
+		padding-bottom: 5px;
+	}
+	.en .author {
+		width: 30%;
+	}
+
+	.en .title {
+		position: relative;
+		width: 60%;
+		left: auto;
+		height: auto;
+	}
+
+	.kr {
+		left: 20px;
+		bottom: 70px;
+		height: 50%;	
+/*		border: 2px solid red;*/
+	}
+
+	.kr ol {
+/*		border: 4px solid gray;*/
+		align-items: stretch;
+	}
+
+	.kr li {
+		border-left: none;
+		border-right: 1px solid black;
+		margin-left: 5px;
+/*		border: 3px solid green;*/
+		padding-right: 5px;
+	}
+
+	.kr li:nth-child(1),
+	.kr li:nth-child(2),
+	.kr li:nth-child(3),
+	.kr li:nth-child(4),
+	.kr li:nth-child(5),
+	.kr li:nth-child(6),
+	.kr li:nth-child(7),
+	.kr li:nth-child(8) {
+		width: auto;
+		height: 100%;
+	}
+
+	.kr li:nth-child(1) {
+		margin-left: -3px;
+	}
+}
