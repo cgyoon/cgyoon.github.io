@@ -67,6 +67,7 @@ a {
 	font-weight: normal;
 	position: absolute;
 	padding: 20px;
+	z-index: 2;
 }
 
 .titleen {
@@ -285,15 +286,18 @@ footer p {
 	}
 
 	.titlekr {
-		bottom: 70px;
-		height: 50%;
+		bottom: 0;
+		height: auto;
 /*		border: 2px solid blue;*/
 	}
 
 	.en {
+		position: relative;
 		top: 60px;
 		width: calc(100% - 40px);
-		height: 40%;
+		height: auto;
+		margin-bottom: 100px;
+	/*	border: 5px solid greenyellow;*/
 	}
 
 	.en ol {
@@ -330,10 +334,12 @@ footer p {
 	}
 
 	.kr {
+		position: relative;
 		left: 20px;
-		bottom: 70px;
+		bottom: auto;
+		width: calc(100% - 40px);
 		height: 50%;	
-/*		border: 2px solid red;*/
+/*		border: 5px solid red;*/
 	}
 
 	.kr ol {
@@ -363,5 +369,10 @@ footer p {
 
 	.kr li:nth-child(1) {
 		margin-left: -3px;
+	}
+
+	footer {
+		position: relative;
+		padding-top: 50px;
 	}
 }
