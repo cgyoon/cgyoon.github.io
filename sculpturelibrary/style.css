@@ -281,6 +281,10 @@ footer p {
 		height: 40vh;
 	}
 
+	.arc {
+		top: 60vh;
+	}
+
 	.titleen {
 
 	}
@@ -338,7 +342,7 @@ footer p {
 		left: 20px;
 		bottom: auto;
 		width: calc(100% - 40px);
-		height: 50%;	
+		height: 60%;	
 /*		border: 5px solid red;*/
 	}
 
