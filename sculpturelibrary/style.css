@@ -307,7 +307,7 @@ footer p a {
 .arc {
 	position: fixed;
     width: 100vw;
-    height: 100svh;
+    height: 100vh;
     border-left: 100vw solid transparent;
     border-right: 0vw solid transparent;
     border-bottom: 100vh solid #3e2b27;
