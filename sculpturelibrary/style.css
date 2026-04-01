@@ -297,20 +297,13 @@ footer p a {
 
 @media screen and (max-width: 900px) {
 
-	.fountain {
-		left: 5vw;
-		top: 5vh;
-		width: 40vh;
-		height: 40vh;
-	}
-
 .arc {
 	position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     border-left: 100vw solid transparent;
     border-right: 0vw solid transparent;
-    border-bottom: 100vh solid #3e2b27;
+    border-bottom: 100dvh solid #3e2b27;
     bottom: 0;
     right: 0;
 /*    z-index: -1;*/
