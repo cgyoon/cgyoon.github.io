@@ -36,10 +36,10 @@ a {
 
 .headerback {
   position: absolute;
-  top: 18px;
+  top: 20px;
   left: 50%;
   width: 130px;
-  height: 25px;
+  height: 23px;
   transform: translateX(-50%);
   background-color: white;
   z-index: 8;
@@ -171,12 +171,12 @@ li {
 }
 
 .en li:nth-child(10) {
-  width: 70vw;
+  width: 70.5vw;
   height: 5%;
 }
 
 .en li:nth-child(11) {
-  width: 74vw;
+  width: 74.5vw;
   height: 8%;
 }
 
@@ -201,10 +201,10 @@ li {
 }
 
 .kr {
-  right: 3vw;
+  right: 1vw;
   bottom: 20px;
   writing-mode: vertical-lr;
-  width: 42vw;
+  width: 43vw;
   height: 80vh;
   font-family: eulyoo, serif;
 }
@@ -227,44 +227,45 @@ li {
   font-size: 17px;
   color: white;
 }
+
 .kr li:nth-child(1) {
-  width: 10%;
-  height: 35vh;
+  width: 12%;
+  height: 34vh;
 }
 
 .kr li:nth-child(2) {
   width: 5%;
-  height: 42vh;
+  height: 43vh;
 }
 
 .kr li:nth-child(3) {
   width: 6%;
-  height: 47vh;
+  height: 48vh;
 }
 
 .kr li:nth-child(4) {
   width: 6%;
-  height: 53vh;
+  height: 52vh;
 }
 
 .kr li:nth-child(5) {
   width: 20%;
-  height: 60vh;
+  height: 56vh;
 }
 
 .kr li:nth-child(6) {
   width: 5%;
-  height: 72vh;
+  height: 70.25vh;
 }
 
 .kr li:nth-child(7) {
   width: 8%;
-  height: 74vh;
+  height: 74.5vh;
 }
 
 .kr li:nth-child(8) {
   width: 10%;
-  height: 77vh;
+  height: 80vh;
 }
 
 .kr .year {
@@ -285,12 +286,13 @@ footer {
 }
 
 footer p {
+  font-family: eulyoo, serif;
   font-size: 12px;
   line-height: 1.5;
 }
 
-footer p a {
-  text-decoration: overline red;
+footer a {
+  background-color: red;
 }
 
 @media screen and (max-width: 900px) {
