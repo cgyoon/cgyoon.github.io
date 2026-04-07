@@ -146,17 +146,17 @@ li {
 }
 
 .en li:nth-child(5) {
-  width: 51vw;
+  width: 51.25vw;
   height: 5%;
 }
 
 .en li:nth-child(6) {
-  width: 57vw;
+  width: 57.75vw;
   height: 15%;
 }
 
 .en li:nth-child(7) {
-  width: 60vw;
+  width: 60.25vw;
   height: 6%;
 }
 
@@ -166,17 +166,17 @@ li {
 }
 
 .en li:nth-child(9) {
-  width: 68vw;
+  width: 69.25vw;
   height: 15%;
 }
 
 .en li:nth-child(10) {
-  width: 70.5vw;
+  width: 71.5vw;
   height: 5%;
 }
 
 .en li:nth-child(11) {
-  width: 74.5vw;
+  width: 75vw;
   height: 8%;
 }
 
@@ -230,12 +230,12 @@ li {
 
 .kr li:nth-child(1) {
   width: 12%;
-  height: 34vh;
+  height: 35vh;
 }
 
 .kr li:nth-child(2) {
   width: 5%;
-  height: 43vh;
+  height: 44vh;
 }
 
 .kr li:nth-child(3) {
@@ -245,27 +245,27 @@ li {
 
 .kr li:nth-child(4) {
   width: 6%;
-  height: 52vh;
+  height: 52.25vh;
 }
 
 .kr li:nth-child(5) {
   width: 20%;
-  height: 56vh;
+  height: 56.5vh;
 }
 
 .kr li:nth-child(6) {
   width: 5%;
-  height: 70.25vh;
+  height: 71vh;
 }
 
 .kr li:nth-child(7) {
   width: 8%;
-  height: 74.5vh;
+  height: 75.25vh;
 }
 
 .kr li:nth-child(8) {
   width: 10%;
-  height: 80vh;
+  height: 80.75vh;
 }
 
 .kr .year {
