@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body { 
+	-ms-overflow-style: none; 
+} 
+
+body::-webkit-scrollbar { 
+	display: none; 
+} 
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	width: 50%;
+}
+
+section  {
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+h1 {
+	font-size: 16px;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px;
+}
+
+.bg {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100vw;
+	z-index: -1;
+}
+
+a {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.leaf1 {
+	width: 120px;
+}
+
+.leaf2 {
+	width: 300px;
+}
+
+.leaf3 {
+	width: 200px;
+}
+
+.leaf4 {
+	width: 300px;
+}
+
+.leaf5 {
+	width: 180px;
+}
+
+.leaf6 {
+	width: 250px;
+}
+
+.leaf7 {
+	width: 150px;
+}
+
+.leaf8 {
+	width: 280px;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.caption {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.so {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid white;
+	color: white;
+}
+
+.co {
+	width: 80px;
+	height: 80px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+}
+
+.ob {
+	width: 80px;
+	height: 80px;
+	border: 1px solid white;
+	color: white;
+	margin-left: -1px;
+}
+
+.lo {
+	width: 80px;
+	height: 80px;
+	background-color: rgba(255, 255, 255, 0.5)
+}
+
+details {
+	margin-bottom: 5px;
+}
+
+summary {
+  list-style-type: none; 
+}
+
+summary::-webkit-details-marker {
+  display: none; 
+}
+
+@media screen and (max-aspect-ratio: 3/4) {
+
+	header {
+		width: 100%;
+		padding: 10px 20px 0 20px;
+		z-index: 2;
+	}
+
+	.bg {
+		width: auto;
+		height: 100dvh;
+	}
+
+	section {
+		position: relative;
+		width: 100%;
+		top: 180px;
+		left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
