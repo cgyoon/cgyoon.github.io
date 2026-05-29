@@ -56,31 +56,31 @@ p {
 }
 
 .leaf1 {
-	width: 120px;
+	width: 100px;
 }
 
 .leaf2 {
-	width: 300px;
+	width: 280px;
 }
 
 .leaf3 {
-	width: 200px;
-}
-
-.leaf4 {
-	width: 300px;
-}
-
-.leaf5 {
 	width: 180px;
 }
 
+.leaf4 {
+	width: 280px;
+}
+
+.leaf5 {
+	width: 160px;
+}
+
 .leaf6 {
-	width: 250px;
+	width: 230px;
 }
 
 .leaf7 {
-	width: 150px;
+	width: 130px;
 }
 
 .leaf8 {
@@ -101,31 +101,31 @@ div {
 }
 
 .so {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	border-radius: 50%;
 	border: 1px solid white;
 	color: white;
 }
 
 .co {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 50%;
 }
 
 .ob {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	border: 1px solid white;
 	color: white;
 	margin-left: -1px;
 }
 
 .lo {
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 	background-color: rgba(255, 255, 255, 0.5)
 }
 
