@@ -60,7 +60,7 @@ p {
 }
 
 .leaf2 {
-	width: 280px;
+	width: 260px;
 }
 
 .leaf3 {
@@ -101,31 +101,31 @@ div {
 }
 
 .so {
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	border-radius: 50%;
 	border: 1px solid white;
 	color: white;
 }
 
 .co {
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 50%;
 }
 
 .ob {
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	border: 1px solid white;
 	color: white;
 	margin-left: -1px;
 }
 
 .lo {
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
 	background-color: rgba(255, 255, 255, 0.5)
 }
 
