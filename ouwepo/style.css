@@ -592,10 +592,6 @@ a:hover {
 	font-family: "EY regular"; 
 }
 
-.sero article {
-  	box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.3);
-}
-
 .sero article span {
 	font-family: "EY regular"; 
 }
@@ -757,9 +753,9 @@ a:hover {
 		overflow-y: auto;
 	}
 
-	.sero article {
-  	box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.3);
-	}
+.sero article {
+  	box-shadow: -5px -5px 8px -5px rgba(0, 0, 0, 0.4);
+}
 
 	.garo article:nth-child(1) {
 		width: 100vw
