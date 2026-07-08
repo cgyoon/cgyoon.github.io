@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: TimesNewRoman, serif;
 }
 
 section {
@@ -409,15 +410,15 @@ body::-webkit-scrollbar {
 	width: 200vw;
 }
 
-.sc4 {
-	overflow: hidden;
+.home {
+	overflow-y: hidden;
+	overflow-x: scroll;
 }
 
 .garo {
 	position: absolute;
 	top: 0;
 	left: 0;
-	overflow: hidden;
 	pointer-events: none;
 }
 
@@ -550,7 +551,6 @@ body::-webkit-scrollbar {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: flex-end;
-	overflow: hidden;
 }
 
 .sero article {
