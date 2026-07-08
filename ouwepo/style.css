@@ -592,6 +592,10 @@ a:hover {
 	font-family: "EY regular"; 
 }
 
+.sero article span {
+	font-family: "EY regular"; 
+}
+
 .sero article:nth-child(1) {
 	height: calc(100dvh - 0);
 }
