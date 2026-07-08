@@ -325,14 +325,14 @@ a:hover {
 .q {
 	text-orientation: upright;
 	margin-top: 2px;
-	margin-bottom: 6px;
+	margin-bottom: 15px;
 }
 
 .jm {
 	position: relative;
-	top: -4px;
-	right: -12px;
-	margin-bottom: -2px;
+	top: 0px;
+	right: -1px;
+	margin-bottom: 2px;
 }
 
 .sm {
