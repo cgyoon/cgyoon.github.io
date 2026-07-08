@@ -32,10 +32,15 @@ a:hover {
 	opacity: 0.5;
 }
 
+.sero a {
+  font-family: "EY regular"; 
+  margin: 3px 0 3px 0;
+}
+
 .garo a {
-  	font-family: "EB Garamond", serif;
-  	font-size: 17px;
-  	margin: 0 3px 0 3px;
+  font-family: "EB Garamond", serif;
+  font-size: 17px;
+  margin: 0 3px 0 3px;
 }
 
 .p1 article,
