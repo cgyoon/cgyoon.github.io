@@ -762,120 +762,51 @@ a:hover {
 		overflow-y: auto;
 	}
 
-	.garo article:nth-child(1) {
-		width: 100vw
+	.sero article:nth-child(21),
+	.sero article:nth-child(22), 
+	.sero article:nth-child(23),
+	.sero article:nth-child(24), 
+	.sero article:nth-child(25),
+	.sero article:nth-child(26), 
+	.sero article:nth-child(27),
+	.sero article:nth-child(28), 
+	.sero article:nth-child(29),
+	.sero article:nth-child(30), 
+	.sero article:nth-child(31),
+	.sero article:nth-child(32) {
+/*		display: none;*/
 	}
 
-	.garo article:nth-child(2) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(3) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(4) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(5) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(6) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(7) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(8) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(9) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(10) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(11) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(12) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(13) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(14) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(15) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(16) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(17) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(18) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(19) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(20) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(21) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(22) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(23) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(24) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(25) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(26) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(27) {
-		width: 100vw;
-	}
-
-	.garo article:nth-child(28) {
-		width: 100vw;
-	}
-
+	.garo article:nth-child(1),
+	.garo article:nth-child(2),
+	.garo article:nth-child(3),
+	.garo article:nth-child(4),
+	.garo article:nth-child(5),
+	.garo article:nth-child(6),
+	.garo article:nth-child(7),
+	.garo article:nth-child(8),
+	.garo article:nth-child(9),
+	.garo article:nth-child(10),
+	.garo article:nth-child(11),
+	.garo article:nth-child(12),
+	.garo article:nth-child(13),
+	.garo article:nth-child(14),
+	.garo article:nth-child(15),
+	.garo article:nth-child(16),
+	.garo article:nth-child(17),
+	.garo article:nth-child(18),
+	.garo article:nth-child(19),
+	.garo article:nth-child(20),
+	.garo article:nth-child(21),
+	.garo article:nth-child(22),
+	.garo article:nth-child(23),
+	.garo article:nth-child(24)
+	.garo article:nth-child(25),
+	.garo article:nth-child(26),
+	.garo article:nth-child(27),
+	.garo article:nth-child(28),
 	.garo article:nth-child(29) {
-		width: 100vw;
+		width: 100vw
 	}
 
 }
