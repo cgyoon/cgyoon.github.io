@@ -5,12 +5,9 @@
     font-family: TimesNewRoman, serif;
 }
 
-
-.eb-garamond {
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+@font-face {
+  font-family: "EY regular"; 
+  src: url("Eulyoo1945-Regular.woff");   
 }
 
 section {
@@ -426,9 +423,7 @@ body::-webkit-scrollbar {
 }
 
 .garo {
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: fixed;
 	pointer-events: auto;
 }
 
@@ -560,6 +555,7 @@ body::-webkit-scrollbar {
 }
 
 .sero {
+	position: fixed;
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: flex-end;
@@ -579,6 +575,7 @@ body::-webkit-scrollbar {
 	flex-shrink: 0;
 	background-color: white;
 	pointer-events: auto;
+	font-family: "EY regular"; 
 }
 
 .sero article:nth-child(1) {
