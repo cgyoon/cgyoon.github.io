@@ -762,6 +762,8 @@ a:hover {
 		overflow-y: auto;
 	}
 
+	.sero article:nth-child(19),
+	.sero article:nth-child(20), 
 	.sero article:nth-child(21),
 	.sero article:nth-child(22), 
 	.sero article:nth-child(23),
@@ -774,7 +776,7 @@ a:hover {
 	.sero article:nth-child(30), 
 	.sero article:nth-child(31),
 	.sero article:nth-child(32) {
-/*		display: none;*/
+		display: none;
 	}
 
 	.garo article:nth-child(1),
