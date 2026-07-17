@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: TimesNewRoman, serif;
+}
+
+@font-face {
+  font-family: "EY regular"; 
+  src: url("Eulyoo1945-Regular.woff");   
+}
+
+section {
+	width: 100vw;
+	white-space: nowrap;
+	overflow: auto;
+}
+
+body { 
+	-ms-overflow-style: none; 
+} 
+
+body::-webkit-scrollbar { 
+	display: none; 
+} 
+
+a {
+	color: black;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+.sero a {
+  font-family: "EY regular"; 
+  margin: 3px 0 3px 0;
+}
+
+.garo a {
+  font-family: "EB Garamond", serif;
+  font-size: 17px;
+  margin: 0 3px 0 3px;
+}
+
+.p1 article,
+.p2 article, 
+.p3 article,
+.p4 article {
+	background-color: black;
+}
+
+.laundry::-webkit-scrollbar,
+.kitchen::-webkit-scrollbar,
+.room::-webkit-scrollbar { 
+	display: none; 
+} 
+
+.laundry, .kitchen, .room,
+.top, .bottom,
+.right, .left,
+.machine, .bin, .induction, .sink, .counter, .ref1, .ref2, .table, 
+.bed, .drawer, .shelf1, .shelf2,
+.door, .desk, .mirror, .book, .light, .cabin1, .cabin2,
+.closet, .bookshelf, .stuff,
+.middle, .usb, .it1, .it2, .tray, .pen, .eraser, .cutter, .fan, .card, .sunglass, .charger, .stamp, .promo,
+.stair, .plant, .box, .chair, .pingpong, .bed, .board, .stool, .shelf, .stand, .gym  {
+	position: absolute;
+}
+
+/* ---------- place 1 ---------- */
+
+.laundry,
+.kitchen,
+.room {
+	-ms-overflow-style: none; 
+	padding: 10px;
+}
+
+.laundry {
+	width: 45vw;
+	height: 40dvh;
+}
+
+.machine {
+	width: 30%;
+	height: 100%;
+}
+
+.bin {
+	right: 0;
+	bottom: 0;
+	width: 6vw;
+	height: 6vw;
+	border-radius: 100%;
+}
+
+.kitchen {
+	left: 45vw;
+	width: 55vw;
+	height: 100dvh;
+}
+
+.induction {
+	width: 32%;
+	height: 20%;
+}
+
+.sink {
+	width: 40%;
+	height: 20%;
+	left: calc(32% + 20px);
+}
+
+.counter {
+	width: calc(28% - 40px);
+	height: 48%;
+	right: 10px;
+}
+
+.ref1 {
+	width: 25%;
+	height: 33%;
+	right: 10px;
+	top: calc(48% + 20px);
+}
+
+.ref2 {
+	width: 20%;
+	height: 30%;
+	top: calc(40dvh + 10px);
+}
+
+.kitchen .table {
+	width: 50%;
+	height: 25%;
+	bottom: 10px;
+}
+
+.room {
+	top: 40dvh;
+	width: 45vw;
+	height: 60dvh;
+}
+
+.room .bed {
+	width: 40%;
+	height: calc(100% - 20px);
+	left: 10px;
+}
+
+.room .drawer {
+	width: 15%;
+	height: 25%;
+	left: calc(40% + 20px);
+}
+
+.room .table {
+	width: calc(45% - 30px);
+	height: 25%;
+	right: 0;
+}
+
+.shelf1 {
+	width: 10%;
+	height: calc(75% - 30px);
+	right: 0;
+	top: calc(25% + 20px);
+}
+
+/* ---------- place 2 ---------- */
+.p2 .top {
+	width: 100vw;
+	height: 30dvh;
+	padding: 10px;
+}
+
+.door {
+	width: 15%;
+	height: 10%;
+}
+
+.p2 .top .drawer {
+	width: 5%;
+	height: 50%;
+	left: calc(15% + 20px);
+}
+
+.p2 .top .desk {
+	width: 10%;
+	height: 50%;
+	left: calc(20% + 30px);
+}
+
+.mirror {
+	width: 10%;
+	height: 10%;
+	left: calc(30% + 40px);
+}
+
+.book {
+	width: calc(40% - 5vw - 90px);
+	height: 40%;
+	right: calc(20% + 5vw + 40px);
+}
+
+.light {
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	right: calc(20% + 30px);
+}
+
+.cabin1 {
+	width: 10%;
+	height: 50%;
+	right: 10px;
+}
+
+.cabin2 {
+	width: 10%;
+	height: 50%;
+	right: calc(10% + 20px);
+}
+
+.p2 .bottom {
+	width: 100vw;
+	height: 70dvh;
+	top: 30dvh;
+}
+
+.p2 .bottom .table {
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	left: 10px;
+}
+
+.closet {
+	width: 25%;
+	height: 30%;
+	bottom: 10px;
+	left: 10px;
+}
+
+.p2 .bottom .bed {
+	width: 50%;
+	height: 70%;
+	bottom: 10px;
+	left: calc(25% + 20px);
+}
+
+.bookshelf {
+	top: 0;
+	left: 40%;
+	width: 45%;
+	height: calc(30% - 20px);
+}
+
+.p2 .bottom .sink {
+	width: 10%;
+	height: 15%;
+	bottom: 10px;
+	left: calc(75% + 45px);
+}
+
+.stuff {
+	width: 2%;
+	height: calc(30% - 20px);
+	right: 10px;
+}
+
+/* ---------- place 3 ---------- */
+
+.p3 .left {
+	top: 0;
+	left: 0;
+	width: 23vw;
+	height: 75dvh;
+/*	background-color: red;*/
+	overflow: hidden;
+}
+
+.p3 .middle {
+	width: 20vw;
+	height: 50dvh;
+	top: 10px;
+	left: calc(28vw + 30px);
+/*	background-color: skyblue;*/
+}
+
+.p3 .right {
+	top: 0;
+	right: 0;
+	width: 20vw;
+	height: 70dvh;
+/*	background-color: yellow;*/
+}
+
+.p3 .bottom {
+	width: 100vw;
+	height: 55dvh;
+	bottom: 0;
+}
+
+.usb {
+	width: 12vw;
+	height: 25dvh;
+	top: 10px;
+	left: 10px;
+}
+
+.it1 {
+	width: 9vw;
+	height: 20dvh;
+	top: calc(25dvh + 20px);
+	left: 10px;
+}
+
+.it2 {
+	width: 6vw;
+	height: 20dvh;
+	top: calc(45dvh + 30px);
+	left: 10px;
+}
+
+.tray {
+	width: 14vw;
+	height: 14vw;
+	border-radius: 50%;
+	right: 0;
+	bottom: 0;
+}
+
+.sunglass {
+	width: calc(10vw - 5px);
+	height: calc(50dvh - 25px);
+}
+
+.charger {
+	width: calc(10vw - 5px);
+	height: 12dvh;
+	right: 0;
+}
+
+.promo {
+	top: 10px;
+	right: 10px;
+	width: 8vw;
+	height: 15dvh;
+}
+
+.stamp {
+	top: calc(15dvh + 20px);
+	right: 10px;
+	width: 10vw;
+	height: 40dvh;
+}
+
+.pen {
+	width: 20vw;
+	height: 2dvh;
+	left: 10px;
+	bottom: 10px;
+}
+
+.eraser {
+	width: 8vw;
+	height: 25dvh;
+	left: calc(20vw + 20px);
+	bottom: 10px;
+}
+
+.cutter {
+	width: 20vw;
+	height: 12dvh;
+	left: calc(28vw + 30px);
+	bottom: 10px;
+}
+
+.fan {
+	width: 32vw;
+	height: 50dvh;
+	left: calc(48vw + 40px);
+	bottom: 10px;
+}
+
+.p3 .card {
+	width: calc(20vw - 60px);
+	height: 15dvh;
+	right: 10px;
+	bottom: 10px;
+}
+
+
+/* ---------- place 4 ---------- */
+
+.p4 .left {
+	width: 55vw;
+	height: 100dvh;
+	padding: 10px;
+/*	background-color: red;*/
+}
+
+.p4 .right {
+	width: 45dvw;
+	right: 0;
+	height: 100dvh;
+	padding: 10px;
+/*	background-color: blue;*/
+}
+
+.p4 .plant {
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+}
+
+.p4 .stair {
+	width: 25vw;
+	height: 25dvh;
+	left: calc(5vw + 20px);
+}
+
+.p4 .door {
+	width: calc(15vw - 40px);
+	height: 5dvh;
+	right: 10px;
+}
+
+.pingpong {
+	width: calc(30vw + 10px);
+	height: calc(30vw + 10px);
+	bottom: 10px;
+}
+
+.bed {
+	width: calc(15vw - 40px);
+	height: 45dvh;
+	right: 10px;
+	bottom: 10px;
+}
+
+.p4 .right .chair {
+	width: 8vw;
+	height: 8vw;
+	right: 10px;
+	bottom:  calc(45dvh + 20px);
+}
+
+.box {
+	width: ;
+	height: ;
+	right: calc(15vw - 20px);
+	top: calc(25dvh + 20px);
+}
+
+.stand {
+	width: 10vw;
+	height: 40dvh;
+}
+
+.gym {
+	width: 15vw;
+	height: 20dvh;
+	left: calc(10vw + 20px);
+}
+
+.p4 .bin {
+	width: 20vw;
+	height: 15dvh;
+	top: 10px;
+	left: calc(25vw + 30px);
+	border-radius: 0;
+}
+
+.p4 .left .table {
+	width: 25vw;
+	height: 20dvh;
+	bottom: calc(25dvh + 10px);
+}
+
+.p4 .shelf {
+	width: 7vw;
+	height: 45dvh;
+	left: calc(25vw + 20px);
+	bottom: 10px;
+}
+
+.stool {
+	width: 7vw;
+	height: 7vw;
+	left: calc(32vw + 30px);
+	bottom: 10px;
+}
+
+.board {
+	width: calc(16vw - 40px);
+	height: 3dvh;
+	right: 0;
+	bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+.ur {
+	text-orientation: upright;
+}
+
+.n {
+	text-orientation: upright;
+	margin-top: 7px;
+}
+
+.q {
+	text-orientation: upright;
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+
+.jm {
+	position: relative;
+	top: 0px;
+	right: -1px;
+	margin-bottom: 2px;
+}
+
+.sm {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 1600px) {
+
+	.nav li {
+		width: 4vw;
+		height: 4vw;
+	}
+
+	.sm section {
+		width: 5vw;
+		height: 5vw;
+	}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 200px) {
+
+}
+
+@media screen and (max-width: 100px) {
+
+}
+
+@media screen and (max-aspect-ratio: 16/9) {
+
+}
+
+@media screen and (max-aspect-ratio: 9/16) {
+	
+}
