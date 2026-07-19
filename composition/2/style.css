@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	color: white;
+	font-size: 0;
+	font-family: helvetica, sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+body { 
+	height: 100%;
+-ms-overflow-style: none; 
+} 
+
+a {
+	text-decoration: none;
+}
+
+a, .self {
+	cursor: pointer;
+}
+
+::-webkit-scrollbar { 
+display: none; 
+} 
+
+#box {
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+	width: calc(100% - 2vw);
+	height: calc(100% - 2vw);
+}
+
+.sixteen {
+	position: absolute;
+	width: 100%;
+	height: calc((100% - 15vw) / 16 );
+	display: block;
+	font-size: 0;
+}
+
+.st {
+	top: 0;
+}
+
+.nd {
+	top: calc((((100% - 15vw) / 16 ) * 5) + 5vw);
+}
+
+.rd {
+	top: calc((((100% - 15vw) / 16 ) * 10) + 10vw);
+}
+
+.th {
+	top: calc((((100% - 15vw) / 16 ) * 15) + 15vw);
+}
+
+.three {
+	position: relative;
+	display: inline-block;
+	width: calc((100% - 2vw) / 3);
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+	background-color: red;
+	color: white;
+}
+
+.mr {
+	margin-right: 1vw;
+	background-color: pink
+}
+
+.three {
+	display: inline-block;
+	width: calc((100% - 2vw) / 3);
+	height: 100%;
+	background-color: black;
+	text-align: center;
+	height: 100%;
+}
+
+
+.one {
+	top: calc(((100% - 15vw) / 16 ) + 1vw);
+	left: 0;
+}
+
+.two {
+
+}
+
+.four {
+
+}
+
+.five {
+
+}
+
+.six {
+
+}
+
+.mr {
+	margin-right: 1vw;
+}
+
+.sero {
+	position: absolute;
+	width: calc((((100% - 10vw) / 11) * 2) + 1vw);
+	height: calc((((100% - 15vw) / 16) * 4) + 3vw);
+}
+
+.one {
+	top: calc(((100% - 15vw) / 16) + 1vw);
+	left: 0;
+}
+
+.two {
+	top: calc(((100% - 15vw) / 16) + 1vw);
+	right: 0;
+}
+
+.thr {
+	top: calc((((100% - 15vw) / 16) * 6) + 6vw);
+	left: 0;
+}
+
+.fou {
+	top: calc((((100% - 15vw) / 16) * 6) + 6vw);
+	right: 0;
+}
+
+.fiv {
+	top: calc((((100% - 15vw) / 16) * 11) + 11vw);
+	left: 0;
+}
+
+.six {
+	top: calc((((100% - 15vw) / 16) * 11) + 11vw);
+	right: 0;
+}
+.num {
+	position: relative;
+	font-size: 5vw;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.small {
+	width: 100%;
+	height: calc((100% - 1vw) / 2);
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.big {
+	position: absolute;
+	width: calc((((100% - 10vw) / 11) * 7) + 6vw);
+	height: calc((((100% - 15vw) / 16) * 4) + 3vw);
+	background-color: black;
+	color: white;
+	text-align: center;
+	left: calc((((100% - 10vw) / 11) * 2) + 2vw);
+}
+
+.il {
+ top: calc((((100% - 15vw) / 16) * 1) + 1vw);
+}
+
+.ee {
+ top: calc((((100% - 15vw) / 16) * 6) + 6vw);
+}
+
+.sam {
+ top: calc((((100% - 15vw) / 16) * 11) + 11vw);
+}
+.mb {
+	margin-bottom: 1vw;
+}
+
+@media (min-aspect-ratio: 3/4) {
+
+	.num {
+		font-size: 3vh;
+	}
+
+}

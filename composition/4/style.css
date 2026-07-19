@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	color: white;
+	font-family: helvetica, sans-serif;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+body { 
+-ms-overflow-style: none; 
+} 
+
+a {
+	text-decoration: none;
+}
+
+#box {
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+	width: calc(100% - 2vw);
+	height: calc(100% - 2vw);
+}
+
+.to {
+	position: absolute;
+	width: 100%;
+	height: calc((100% - 20vw) / 21);
+	font-size: 0;
+}
+
+.st {
+	top: 0;
+}
+
+.nd {
+	top: calc((((100% - 20vw) / 21) * 13) + 13vw);
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+
+.rd {
+	top: calc((((100% - 20vw) / 21) * 14) + 14vw);
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+
+.th {
+	top: calc((((100% - 20vw) / 21) * 19) + 19vw);
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+
+.th5 {
+	top: calc((((100% - 20vw) / 21) * 20) + 20vw);
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0;
+}
+
+.sero1 {
+	position: absolute;
+	top: calc(((100% - 20vw) / 21) + 1vw);
+	width: calc((100% - 11vw) / 12);
+	height: calc((((100% - 20vw) / 21) * 12) + 11vw);
+}
+
+.sero2 {
+	position: absolute;
+	top: calc((((100% - 20vw) / 21) * 15) + 15vw);
+	width: calc((((100% - 11vw) / 12) * 2) + 1vw);
+	height: calc((((100% - 20vw) / 21) * 4) + 3vw);
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
+.wide {
+	position: absolute;
+	top: calc(((100% - 20vw) / 21) + 1vw);
+	left: calc(((100% - 11vw) / 12) + 1vw);
+	width: calc((((100% - 11vw) / 12) * 10) + 9vw);
+	height: calc((((100% - 20vw) / 21) * 12) + 11vw);
+	font-size: 0;
+}
+
+.narrow {
+	position: absolute;
+	top: calc((((100% - 20vw) / 21) * 15) + 15vw);
+	left: calc((((100% - 11vw) / 12) * 2) + 2vw);
+	width: calc((((100% - 11vw) / 12) * 8) + 7vw);
+	height: calc((((100% - 20vw) / 21) * 4) + 3vw);
+	font-size: 0;
+}
+
+.vertwo {
+	display: block;
+	width: 100%;
+	height: calc((100% - 1vw) / 2);
+	background-color: black;
+}
+
+.four {
+	display: inline-block;
+	width: calc((100% - 3vw) / 4);
+	height: 100%;
+	background-color: black;
+	vertical-align: top;
+}
+
+.three {
+	display: inline-block;
+	width: calc((100% - 2vw) / 3);
+	height: 100%;
+	background-color: black;
+}
+
+.two {
+	display: inline-block;
+	width: calc((100% - 1vw) / 2);
+	height: 100%;
+	background-color: black;
+}
+
+.mr {
+	margin-right: 1vw;
+}
+
+.mb {
+	margin-bottom: 1vw;
+}
+
+.num {
+	position: relative;
+	font-size: 5vw;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+::-webkit-scrollbar { 
+display: none; 
+} 
+
+@media (min-aspect-ratio: 3/4) {
+
+	.num {
+		font-size: 3vh;
+	}
+
+}

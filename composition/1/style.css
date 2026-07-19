@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	color: white;
+	font-size: 0;
+	font-family: helvetica, sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+a, .self {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+body { 
+	height: 100%;
+-ms-overflow-style: none; 
+} 
+
+::-webkit-scrollbar { 
+display: none; 
+} 
+
+#box {
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+	width: calc(100% - 2vw);
+	height: calc(100% - 2vw);
+}
+
+.eighteen {
+	position: relative;
+	width: 100%;
+	height: calc((100% - 17vw) / 18 );
+	display: block;
+	margin-bottom: 1vw;
+	font-size: 0;
+}
+
+.four {
+	display: inline-block;
+	width: calc((100% - 3vw) / 4);
+	background-color: black;
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.mr {
+	margin-right: 1vw;
+}
+
+.num {
+	position: relative;
+	font-size: 5vw;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.six {
+	display: inline-block;
+	width: calc((100% - 5vw) / 6);
+	height: 100%;
+	background-color: black;
+	text-align: center;
+	z-index: -1;
+}
+
+.last {
+	position: absolute;
+	right: 0;
+}
+
+.onebox {
+	position: absolute;
+	top: calc((((100% - 17vw) / 18 ) * 14 ) + 14vw);
+	left: calc(((100% - 5vw) / 6) + 1vw);
+	height: calc((((100% - 17vw) / 18 ) * 3) + 2vw);
+	width: calc((((100% - 5vw) / 6) * 4) + 3vw);
+	font-size: 0;
+}
+
+.one {
+	display: inline-block;
+	width: calc((100% - 1vw) / 2);
+	height: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+@media (min-aspect-ratio: 3/4) {
+
+	.num {
+		font-size: 3vh;
+	}
+
+}
