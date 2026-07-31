@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>낱말들</title>
+	<meta name="description" content="HTML을 이루는 낱말들">
+	<meta name="keywords" content="HTMl, 태그, 요소, tags, elements">
+
+	<!-- Google / Search Engine Tags -->
+	<meta itemprop="name" content="낱말들" />
+	<meta itemprop="description" content="HTML을 이루는 낱말들" />
+	<meta itemprop="image" content="thumbnail.jpg" />
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="http://afterneworder.com/ouwepo/words/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="낱말들" />
+	<meta property="og:description" content="HTML을 이루는 낱말들" />
+	<meta property="og:image" content="thumbnail.jpg" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="낱말들" />
+	<meta name="twitter:description" content="HTML을 이루는 낱말들" />
+	<meta name="twitter:image" content="thumbnail.jpg" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="tags.css">
+</head>
+<style>
+ #sudoku { border-collapse: collapse; }
+ #sudoku colgroup, table#sudoku tbody {  }
+ #sudoku td { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding: 0; }
+</style>
+
+<body class="tags">
+<h1>낱말들</h1>
+<!-- 	<h2>글 수준 의미론</h2> -->
+<!-- s, strikethrough 더 이상 정확하지 않거나 관련 없는 내용을 나타낼 때-->
+	<section>
+		<p>아이스티와 레모네이드를 사세요!</p>
+		<p><s>권장 소비자가: 한 병에 $3.99</s></p>
+		<p><strong>현재 한 병에 단 돈 $2.99!</strong></p>
+	</section>
+
+<!-- ruby -->
+	<section class="jp">
+		<ruby>君<rt>くん</ruby><ruby>子<rt>し</ruby>は<ruby>和<rt>わ</ruby>して<ruby>同<rt>どう</ruby>ぜず。
+	</section>
+
+	<section class="jp">
+		<ruby>鬼<rt>き</rt>門<rt>もん</rt></ruby>の<ruby>方<rt>ほう</rt>角<rt>がく</rt></ruby>を<ruby>凝<rt>ぎょう</rt>視<rt>し</rt></ruby>する
+	</section>
+
+	<section> <!-- 인터페이스 -->
+		<ruby>境界面<rt>インターフェース</ruby>
+	</section>
+
+	<section>
+		<ruby lang="ja">編集者<rt lang="en">editor</ruby>
+	</section>
+
+	<section> <!-- 수국 -->
+		<ruby>紫陽花<rt>あじさい</ruby>
+	</section>
+
+	<section class="jp">
+		<ruby>
+		 ♥ <rt> Heart <rt lang=fr> Cœur </rt>
+		 ☘ <rt> Shamrock <rt lang=fr> Trèfle </rt>
+		 ✶ <rt> Star <rt lang=fr> Étoile </rt>
+		</ruby>
+	</section>
+
+	<section>
+		<ruby><ruby>東<rt>とう</rt>南<rt>なん</rt></ruby><rt lang=en>Southeast</rt></ruby>の方角
+	</section>
+
+<!-- code -->
+	<section>
+		<pre><code class="language-pascal">var i: Integer;
+		begin
+		   i := 1;
+		end.</code></pre>
+	</section>
+
+<!-- var -->
+	<section>
+		<figure>
+		 <math>
+		  <mi>a</mi>
+		  <mo>=</mo>
+		  <msqrt>
+		   <msup><mi>b</mi><mn>2</mn></msup>
+		   <mi>+</mi>
+		   <msup><mi>c</mi><mn>2</mn></msup>
+		  </msqrt>
+		 </math>
+		 <figcaption>
+		  피타고라스의 정리를 이용하여 변의 길이가 <var>b</var>와 <var>c</var>인 삼각형의 빗변 <var>a</var> 구하기
+		 </figcaption>
+		</figure>
+	</section>
+
+<!-- sub sup -->
+	<section>
+		<p>그들의 이름은 <span lang="fr"><abbr>M<sup>lle</sup></abbr> Gwendoline</span>와 <span lang="fr"><abbr>M<sup>me</sup></abbr> Denise</span>이다.</p>
+	</section>
+
+	<section>
+		<p><var>i</var>번째 점의 좌표는 (<var>x<sub><var>i</var></sub></var>, <var>y<sub><var>i</var></sub></var>)입니다. 이를테면, 열 번째 점의 좌표는 (<var>x<sub>10</sub></var>, <var>y<sub>10</sub></var>)입니다.</p>
+	</section>
+
+	<section>
+		<var>E</var>=<var>m</var><var>c</var><sup>2</sup>
+		f(<var>x</var>, <var>n</var>) = log<sub>4</sub><var>x</var><sup><var>n</var></sup>
+	</section>
+
+<!-- i -->
+	<section>
+		<p><i class="taxonomy">집고양이</i>는 귀엽다.</p>
+	</section>
+
+<!-- b -->
+	<section>
+		<p>당신은 작은 방에 들어갑니다. 당신의 <b>검</b>이 더 밝게 빛납니다. <b>쥐</b>가 구석 벽을 지나 허둥지둥 움직입니다.</p>
+	</section>
+
+<!-- bdi -->
+	<section>
+		<ul>
+		 <li>사용자 <bdi>jcranmer</bdi>: 12 포스트.
+		 <li>사용자 <bdi>hober</bdi>: 5 포스트.
+		 <li>사용자 <bdi>إيان</bdi>: 3 포스트.
+		</ul>
+	</section>
+
+<!-- span -->
+	<section>
+		<pre><code class="lang-c"><span class="keyword">for</span> (<span class="ident">j</span> = 0; <span class="ident">j</span> &lt; 256; <span class="ident">j</span>++) {
+		  <span class="ident">i_t3</span> = (<span class="ident">i_t3</span> & 0x1ffff) | (<span class="ident">j</span> &lt;&lt; 17);
+		  <span class="ident">i_t6</span> = (((((((<span class="ident">i_t3</span> >> 3) ^ <span class="ident">i_t3</span>) >> 1) ^ <span class="ident">i_t3</span>) >> 8) ^ <span class="ident">i_t3</span>) >> 5) & 0xff;
+		  <span class="keyword">if</span> (<span class="ident">i_t6</span> == <span class="ident">i_t1</span>)
+		    <span class="keyword">break</span>;
+		}</code></pre>
+	</section>
+
+<!-- wbr -->
+	<section>
+		<p>그녀는 호랑이를 보고 소리쳤다. “절대<wbr>나를<wbr>잡을<wbr>수<wbr>없을<wbr>거야!”</p>
+	</section>
+
+
+
+
+
+
+
+<!-- 	<h2>표</h2> -->
+
+<!-- 	table -->
+	<section>
+		<table id="sudoku">
+		 <colgroup><col><col><col>
+		 <colgroup><col><col><col>
+		 <colgroup><col><col><col>
+		 <tbody>
+		  <tr> <td> 1 <td>   <td> 3 <td> 6 <td>   <td> 4 <td> 7 <td>   <td> 9
+		  <tr> <td>   <td> 2 <td>   <td>   <td> 9 <td>   <td>   <td> 1 <td>
+		  <tr> <td> 7 <td>   <td>   <td>   <td>   <td>   <td>   <td>   <td> 6
+		 <tbody>
+		  <tr> <td> 2 <td>   <td> 4 <td>   <td> 3 <td>   <td> 9 <td>   <td> 8
+		  <tr> <td>   <td>   <td>   <td>   <td>   <td>   <td>   <td>   <td>
+		  <tr> <td> 5 <td>   <td>   <td> 9 <td>   <td> 7 <td>   <td>   <td> 1
+		 <tbody>
+		  <tr> <td> 6 <td>   <td>   <td>   <td> 5 <td>   <td>   <td>   <td> 2
+		  <tr> <td>   <td>   <td>   <td>   <td> 7 <td>   <td>   <td>   <td>
+		  <tr> <td> 9 <td>   <td>   <td> 8 <td>   <td> 2 <td>   <td>   <td> 5
+		</table>
+	</section>
+
+	<section>
+		<table>
+		 <tr>
+		  <th><input value="이름">
+		  <th><input value="지불 ($)">
+		 <tr>
+		  <td><input value="제프">
+		  <td><input value="14">
+		 <tr>
+		  <td><input value="브리타">
+		  <td><input value="9">
+		 <tr>
+		  <td><input value="아베드">
+		  <td><input value="25">
+		 <tr>
+		  <td><input value="셜리">
+		  <td><input value="2">
+		 <tr>
+		  <td><input value="애니">
+		  <td><input value="5">
+		 <tr>
+		  <td><input value="트로이">
+		  <td><input value="5">
+		 <tr>
+		  <td><input value="피어스">
+		  <td><input value="1000">
+		 <tr>
+		  <th><input value="합계">
+		  <td><output value="1060">
+		</table>
+	</section>
+
+	<section>
+		<table>
+		 <thead>
+		  <tr>
+		   <th>
+		   <th>2008
+		   <th>2007
+		   <th>2006
+		 <tbody>
+		  <tr>
+		   <th>순 매출
+		   <td>$ 32,479
+		   <td>$ 24,006
+		   <td>$ 19,315
+		  <tr>
+		   <th>매출 원가
+		   <td>  21,334
+		   <td>  15,852
+		   <td>  13,717
+		 <tbody>
+		  <tr>
+		   <th>매출 총이익
+		   <td>$ 11,145
+		   <td>$  8,154
+		   <td>$  5,598
+		 <tfoot>
+		  <tr>
+		   <th>매출 총이익률
+		   <td>34.3%
+		   <td>34.0%
+		   <td>29.0%
+		</table>
+	</section>
+
+
+
+
+
+
+
+	
+<!-- 	<h2>유형</h2> -->
+
+<!-- type=url -->
+	<section>
+		<input type="url" name="location" list="urls">
+		<datalist id="urls">
+		 <option label="MIME: Format of Internet Message Bodies" value="https://www.rfc-editor.org/rfc/rfc2045">
+		 <option label="HTML" value="https://html.spec.whatwg.org/">
+		 <option label="DOM" value="https://dom.spec.whatwg.org/">
+		 <option label="Fullscreen" value="https://fullscreen.spec.whatwg.org/">
+		 <option label="Media Session" value="https://mediasession.spec.whatwg.org/">
+		 <option label="The Single UNIX Specification, Version 3" value="http://www.unix.org/version3/">
+		</datalist>
+	</section>
+	
+<!-- 	radio -->
+	<section>
+		<form>
+		 <p><label><input type="radio" name="dog-type" value="pupper" required disabled> 퍼퍼</label>
+		 <p><label><input type="radio" name="dog-type" value="doggo"> 도고</label>
+		 <p><button>고르세요.</button>
+		</form>
+	</section>
+
+<!-- file -->
+	<section>
+		<p><input type=file name=image onchange="updateFilename(this.value)"></p>
+		<p>고른 파일의 이름: <span id="filename">(없음)</span></p>
+		<script>
+		 function updateFilename(path) {
+		   var name = extractFilename(path);
+		   document.getElementById('filename').textContent = name;
+		 }
+		</script>
+	</section>
+
+	<!-- readonly -->
+	<section> 
+		<label for="firstName">이름:</label>
+		<input id="firstName" name="firstName" type="text" value="아담" />
+
+		<label for="age">나이:</label>
+		<input id="age" name="age" type="number" value="42" readonly />
+
+		<label for="hobbies">취미:</label>
+		<textarea id="hobbies" name="hobbies" readonly>농구</textarea>
+	</section>
+
+	<!-- required -->
+	<section>
+		<form action="/newaccount" method=post
+		      oninput="up2.setCustomValidity(up2.value != up.value ? 'Passwords do not match.' : '')">
+		 <p>
+		  <label for="username">이메일 주소:</label>
+		  <input id="username" type=email required name=un>
+		 <p>
+		  <label for="password1">비밀번호:</label>
+		  <input id="password1" type=password required name=up>
+		 <p>
+		  <label for="password2">비밀번호 확인:</label>
+		  <input id="password2" type=password name=up2>
+		 <p>
+		  <input type=submit value="계정 만들기">
+		</form>
+	</section>
+
+	<section>
+		<fieldset>
+		 <legend>그 영화는 벡델 테스트를 통과했나요?</legend>
+		 <p><label><input type="radio" name="bechdel" value="no-characters"> 아니요, 그 영화에는 여성 캐릭터가 두 명조차 등장하지 않습니다.</label>
+		 <p><label><input type="radio" name="bechdel" value="no-names"> 아니요, 여성 캐릭터들은 서로 대화를 나누지 않습니다.</label>
+		 <p><label><input type="radio" name="bechdel" value="no-topic"> 아니요, 여성 캐릭터들이 서로 대화할 때는 항상 남성 캐릭터에 관한 이야기뿐이에요.</label>
+		 <p><label><input type="radio" name="bechdel" value="yes" required> 네. </label>
+		 <p><label><input type="radio" name="bechdel" value="unknown"> 모르겠습니다. </label>
+		</fieldset>
+	</section>
+
+	<!-- multiple -->
+	<section>
+		<label>받는 이: <input type=email multiple name=to list=contacts></label>
+		<datalist id="contacts">
+		 <option value="hedral@damowmow.com">
+		 <option value="pillar@example.com">
+		 <option value="astrophy@cute.example">
+		 <option value="astronomy@science.example.org">
+		</datalist>
+	</section>
+
+	<section class="receipt">
+		<label for="recipients">영수증은 어디로 보내드릴까요?</label>
+		<input id="recipients" name="recipients" type="email" multiple />
+
+		<label for="shakes">어떤 쉐이크를 주문하시겠어요?</label>
+		<select id="shakes" name="shakes" multiple>
+		  <option>바닐라 쉐이크</option>
+		  <option>딸기 쉐이크</option>
+		  <option>초콜렛 쉐이크</option>
+		</select>
+
+		<label for="payment">결제는 어떻게 하시겠습니까?</label>
+		<select id="payment" name="payment">
+		  <option>신용 카드</option>
+		  <option>계좌 이체</option>
+		</select>
+	</section>
+
+<!-- list -->
+	<section>
+		<label>홈페이지: <input name=hp type=url list=hpurls></label>
+		<datalist id=hpurls>
+		 <option value="https://www.google.com/" label="Google">
+		 <option value="https://www.reddit.com/" label="Reddit">
+		</datalist>
+	</section>
+
+	<section>
+		<p>
+		 <label>
+		  품종을 입력하시오:
+		  <input type="text" name="breed" list="breeds">
+		  <datalist id="breeds">
+		   <option value="아비니시안">
+		   <option value="알파카">
+		   <!-- ... -->
+		  </datalist>
+		 </label>
+		</p>
+	</section>
+
+<!-- placeholder -->
+	<section>
+		<fieldset>
+		 <legend>메일 계정</legend>
+		 <p><label>이름: <input type="text" name="fullname" placeholder="존 래천버거"></label></p>
+		 <p><label>주소: <input type="email" name="address" placeholder="john@example.net"></label></p>
+		 <p><label>비밀번호: <input type="password" name="password"></label></p>
+		 <p><label>설명: <input type="text" name="desc" placeholder="내 이메일 주소"></label></p>
+		</fieldset>
+	</section>
+
+	<section>
+		<input name=t1 type=tel placeholder="&#x202B; رقم الهاتف 1 &#x202E;">
+		<input name=t2 type=tel placeholder="&#x202B; رقم الهاتف 2 &#x202E;">
+	</section>
+
+<!-- checkbox -->
+	<section>
+		<fieldset>
+		  <legend>괴물의 특징을 선택하세요:</legend>
+
+		  <div>
+		    <input type="checkbox" id="scales" name="scales" checked />
+		    <label for="scales">비늘</label>
+		  </div>
+
+		  <div>
+		    <input type="checkbox" id="horns" name="horns" />
+		    <label for="horns">뿔</label>
+		  </div>
+		</fieldset>
+	</section>
+
+<!-- progress -->
+	<section>
+	 <p>진행: <progress id=p max=100><span>0</span>%</progress></p>
+	 <script>
+	  var progressBar = document.getElementById('p');
+	  function updateProgress(newValue) {
+	    progressBar.value = newValue;
+	    progressBar.getElementsByTagName('span')[0].textContent = newValue;
+	  }
+	 </script>
+	</section>
+
+	<section>
+		<fieldset>
+		 <legend>보여주기</legend>
+		 <p><label><input type=radio name=c value=0 checked> 하얀색 바탕에 검정색</label>
+		 <p><label><input type=radio name=c value=1> 검정색 바탕에 하얀색</label>
+		 <p><label><input type=checkbox name=g> 회색</label>
+		 <p><label>대비 크게<input type=range name=e list=contrast min=0 max=100 value=0 step=1></label>
+		 <datalist id=contrast>
+		  <option label=Normal value=0>
+		  <option label=Maximum value=100>
+		 </datalist>
+		</fieldset>
+	</section>
+
+	<section>
+		<fieldset name="clubfields" disabled>
+		 <legend> <label>
+		  <input type=checkbox name=club onchange="form.clubfields.disabled = !checked">
+		  클럽 카드 사용하기
+		 </label> </legend>
+		 <p><label>카드에 쓰인 이름: <input name=clubname required></label></p>
+		 <fieldset name="numfields">
+		  <legend> <label>
+		   <input type=radio checked name=clubtype onchange="form.numfields.disabled = !checked">
+		   카드에 숫자가 있음
+		  </label> </legend>
+		  <p><label>카드 숫자: <input name=clubnum required pattern="[-0-9]+"></label></p>
+		 </fieldset>
+		 <fieldset name="letfields" disabled>
+		  <legend> <label>
+		   <input type=radio name=clubtype onchange="form.letfields.disabled = !checked">
+		  	카드에 글자가 있음
+		  </label> </legend>
+		  <p><label>카드 암호: <input name=clublet required pattern="[A-Za-z]+"></label></p>
+		 </fieldset>
+		</fieldset>
+	</section>
+
+<footer>
+	<p>출처. <a href="https://html.spec.whatwg.org/multipage/#toc-semantics">HTML 살아있는 표준</a>, <a href="https://developer.mozilla.org/en-US/">모질라 개발자 네트워크(Mozilla Developer Network)</a></p>
+</footer>
+</body>
+</html>
+
+

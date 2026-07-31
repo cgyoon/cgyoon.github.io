@@ -1,0 +1,60 @@
+* {
+/*	margin: 0;
+	padding: 0;*/
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgray;
+}
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tags section {
+/*	border: 1px solid blue;*/
+	width: auto;
+	flex-wrap: nowrap;
+}
+
+.tags section p{
+/*	white-space: wrap;*/
+}
+
+.tags section table {
+	text-align: left;
+}
+
+.receipt {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	display: inline-block;
+}
+
+form {
+/*	border: 1px solid red;*/
+	display: inline-block;
+}
+
+fieldset {
+	display: inline-block;
+}
+
+.tags footer {
+	font-size: 12px;
+}
+
+.tags footer a {
+	color: black;
+}
+
+
+
+/*.tags .jp {
+	display: block;
+}*/
