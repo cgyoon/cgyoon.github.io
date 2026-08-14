@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	font-family: 'Gothic A1', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+}
+
+li {
+	position: relative;
+	display: inline-block;
+	width: 17vw;
+	font-family: Gothic A1;
+	font-size: 7vw;
+	text-align: center;
+	list-style: none;
+	box-shadow: 2px 2px 5px black;
+	background-color: white;
+	padding: 1vw 0 0 0;
+	cursor: pointer;
+	z-index: 3;
+}
+
+details {
+	padding: 60px 20px 0 20px;
+	list-style: none;
+	z-index: 99;
+}
+
+summary {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 99;
+	cursor: pointer;
+
+}
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.indent {
+	text-indent: 30px;
+}
+a {
+	color: black;
+}
+
+.deg1 {
+	transform: rotate(10deg);
+}
+
+.deg2 {
+	transform: rotate(20deg);
+}
+
+.deg3 {
+	transform: rotate(30deg);
+}
+
+.deg4 {
+	transform: rotate(40deg);
+}
+
+.deg5 {
+	transform: rotate(50deg);
+}
+
+.deg6 {
+	transform: rotate(60deg);
+}
+
+.deg7 {
+	transform: rotate(110deg);
+}
+
+.deg8 {
+	transform: rotate(130deg);
+}
+
+.deg9 {
+	transform: rotate(145deg);
+}
+
+.deg10 {
+	transform: rotate(165deg);
+}
+
+
+@media (max-aspect-ratio: 3/2) {
+}
+
+@media (max-width: 900px) {
+	li {
+		width: 30vw;
+		font-size: 12vw;
+		padding: 3vw 0 0 0;
+	}
+
+}
