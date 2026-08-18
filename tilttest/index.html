@@ -22,10 +22,13 @@
             font-size: 16px;
             background: rgba(255,255,255,0.2);
             border: 2px solid #fff;
-            color: #fff;
+            color: gray;
             border-radius: 25px;
             cursor: pointer;
             backdrop-filter: blur(5px);
+            position: fixed;
+            top:  10px;
+            right: 10px;
         }
         .info { margin-top: 15px; font-size: 14px; }
     </style>
@@ -33,7 +36,6 @@
 <body>
 
     <button id="startBtn">센서 권한 허용하기</button>
-    <div class="info" id="infoText">기기 기울기를 확인해보세요</div>
 
     <script>
         const startBtn = document.getElementById('startBtn');
