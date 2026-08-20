@@ -1,0 +1,154 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+body { 
+    -ms-overflow-style: none; 
+} 
+
+body::-webkit-scrollbar { 
+    display: none; 
+}   
+
+.snp {
+    overflow-y: hidden;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.sites,
+.people {
+    position: absolute;
+    width: 50vw;
+    height: 100dvh;
+}
+
+.sites {
+    top: 0;
+    left: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.week {
+    width: 50vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: calc(100dvh / 7);
+    writing-mode: vertical-rl;
+}
+
+.week h2 {
+    width: 10vw;
+}
+
+.cases article {
+    width: calc((100dvh - 85px) / 7);
+    height: calc(100dvh / 7);
+}
+
+article:hover {
+    background-color: lightgray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.people {
+    top: 0;
+    left: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    writing-mode: vertical-rl;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 50vw;
+    width: max-content; 
+
+}
+
+.names li {
+
+    height: 100dvh;
+    white-space: nowrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+summary {
+    display: inline-block;
+    cursor: pointer;
+    height: 180px;
+}
+
+details {
+    flex-direction: row;
+}
+
+p {
+    display: inline-block;
+    position: relative;
+}
+
+/* 크롬, 파이어폭스 등 일반 브라우저 */
+summary {
+  list-style: none;
+}
+
+/* 사파리(Safari) 브라우저 대응 */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .sites,
+    .people {
+        position: absolute;
+
+    }
+
+    .sites {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .week {
+        width: 100vw;
+    }
+
+    .week h2 {
+        width: 20vw;
+    }
+    .cases article {
+        width: calc((70dvh - 120px) / 7);
+        height: calc(70dvh / 7);
+    }
+
+    .people {
+        width: 100vw;
+        top: 65vh;
+        left: 0;
+    }
+
+    .names li {
+        height: 35vh;
+    }
+}
