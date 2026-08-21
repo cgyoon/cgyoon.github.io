@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     word-break: keep-all;
+    font-family: EB Garamond, EY regular, serif;
 }
 
 body { 
@@ -12,6 +13,11 @@ body {
 body::-webkit-scrollbar { 
     display: none; 
 }   
+
+@font-face {
+  font-family: "EY regular"; 
+  src: url("Eulyoo1945-Regular.woff");   
+}
 
 .snp {
     overflow-y: hidden;
@@ -45,16 +51,22 @@ h2 {
 }
 
 .week h2 {
-    width: 10vw;
+    width: 120px;
 }
 
 .cases article {
-    width: calc((100dvh - 85px) / 7);
-    height: calc(100dvh / 7);
+    width: calc((100dvh - 80px) / 7);
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
-article:hover {
-    background-color: lightgray;
+/*.cases article:hover {
+    background-color: gainsboro;
+}*/
+
+article a:hover {
+    color: lightgray;
 }
 
 a {
@@ -81,7 +93,6 @@ a {
 }
 
 .names li {
-
     height: 100dvh;
     white-space: nowrap;
     overflow-y: auto;
@@ -91,11 +102,13 @@ a {
 summary {
     display: inline-block;
     cursor: pointer;
-    height: 180px;
+    height: 200px;
 }
 
 details {
     flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 p {
